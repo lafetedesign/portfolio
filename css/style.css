@@ -365,6 +365,7 @@
     width: 50%;
     display: block!important;
 }
+
 .work-type{
     position: absolute;
     transform-origin: bottom left;
@@ -376,7 +377,7 @@
 }
 .work_link img{
     width: 90%;
-    margin-left: 13px;
+    margin-left: 8px;
 }
 .web_main_text{
     margin: 22px 0 77px 13px;
@@ -455,6 +456,7 @@
     position: absolute;
     right: 0;
     margin-top: 27px;
+    margin-right: 20px;
 }
 .slick-arrow {
     display: inline-flex;
@@ -772,6 +774,7 @@ footer{
 
 
 /*==下層ページ work==*/
+
 .title_text{
     font-size: 16px;
     line-height: 1.8;
@@ -813,28 +816,20 @@ footer{
 }
 .work_menu{
     display: flex;
-    gap:20px;
+    gap:50px;
     margin-bottom: 98px;
 }
-.web_gallery{
-    width: 50%;
-    display: block!important;
-}
+
 .work_list .work-type{
-    position: absolute;
-    transform-origin: bottom left;
     transform: rotate(-90deg);
-    margin-top: 250px;
+    margin-top: 200px;
     font-size: 14px;
     font-weight: 400;
     font-family: "Adelle Sans Devanagari";
 }
-.work_link img{
-    width: 90%;
-    margin-left: 13px;
-}
+
 .work_link:hover img{
-    transform: scale(1.1);
+    transform: scale(1.04);
     transition-duration: 0.5s;
 }
 .work_list .web_main_text{
@@ -855,34 +850,36 @@ footer{
     margin: 13px 0 0 13px;
     font-size: 16px;
 }
-
-
+main{
+    max-width: 1000px;
+}
+/* サイドメニューボタン設置 */
 .content-wrap{
     display: flex;
+    justify-content: space-around;
+    gap:30px;
+    padding: 30px;
 }
-
 aside {
     position: sticky;
-    display: block;
+    position: -webkit-sticky;/*Safari*/
+    display: flex;
+    flex-flow: column;
     top:0;
     height: 1000px;
+    margin-top: 65px;
     padding: 20px;
-    }
-main{
-    flex:1 1 65%;
 }
-
-
 .menu_btn{
+    font-size: 20px;
     color: #fff;
     background-color: #252526;
     border-radius: 1px;
     text-align: center;
-    padding: 6px 15px;
+    margin-bottom: 40px;
+    padding:15px 40px;
 }
-aside{
 
-}
 
 
 
@@ -910,10 +907,10 @@ aside{
     top: 50%;
     left: 50%;
     transform:translate(-50%,-50%);
-    width: 70%;
     max-width: 1000px;
-    padding: 80px;
+    padding: 60px;
     background-color: #fff;
+    border-radius: 1px;
 }
 .closeModal {
     position: absolute;
@@ -930,16 +927,22 @@ aside{
 /*モーダル中身*/
 .modalWrapper .title_block{
     margin: 0;
-    margin-bottom: 80px;
+    margin-bottom: 30px;
     justify-content: space-between;
 }
 .modalWrapper .work-border{
     max-width: 600px;
 }
+#modalArea .section_title{
+    font-size: 65px;
+}
+#modalArea .work-border{
+    max-width: 450px
+}
 .modal_text{
-    font-size: 16px;
+    font-size: 14px;
     line-height: 1.8;
-    margin-bottom: 80px;
+    margin-bottom: 60px;
     font-feature-settings: "palt";
 }
 .price_contents{
@@ -984,8 +987,8 @@ aside{
 }
 .price_menu h4{
     font-size: 20px;
-    font-weight: 500;
-    margin-bottom: 15px;
+    font-weight: 600;
+    margin-bottom: 10px;
 }
 .price_menu p{
     font-size: 12px;
@@ -999,18 +1002,20 @@ aside{
 .price_list h5{
     width: 80px;
     color: #fff;
-    font-size: 14px;
+    font-size: 13px;
+    font-weight: 500;
     padding: 3px;
     background-color: #252526;
+    margin-bottom: 15px;
     text-align: center;
 }
 .price_item ul{
-    list-style:square;
+    /*list-style:square;*/
 
 }
 .price_item li{
-    font-size: 13px;
-    margin-bottom: 15px;
+    font-size: 12px;
+    margin-bottom: 10px;
 }
 .price_group_text{
     font-size: 14px;
@@ -1210,12 +1215,11 @@ aside{
 }
 /*背景画像を固定するパララックス*/
 .background {
-    background-image: url("./images/nekonote/bg");
+    background-image: url("../images/nekonote/bg.jpg");
     background-attachment: fixed;
     background-size: cover;
     background-position: center;
   }
-
 .suppot_inner{
     display: flex;
     align-items: center;
