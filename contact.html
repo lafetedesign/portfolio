@@ -80,46 +80,59 @@
         <p>各種ご依頼やお問い合わせ、制作料金のご相談・ご質問など、<br>
             お気軽にこちらのフォームよりご送信ください。<br>
             ２営業日以内でお返事させていただきます。</p>
-        <form action="your-server-side-script.php" method="POST">
-            <div>
-                <div class="form-row">
-                    <div class="form-label">
-                      <label for="company">会社名</label>
-                    </div>
-                    <input type="text" id="company" name="company" placeholder="デザイン株式会社">
+            <form class="c-form">
+                <div class="c-form__item">
+                    <label class="c-form__label" for="field-name">会社名</label>
+                    <input
+                        name="entry.1949160327"
+                        class="c-form__input"
+                        id="field-name"
+                        placeholder="デザイン株式会社"
+                        type="text"
+                    />
                 </div>
-                <div class="form-row">
-                    <div class="form-label">
-                      <label for="name">お名前</label>
-                      <span>＊</span>
-                    </div>
-                    <input type="text" id="name" name="name" placeholder="デザイン太郎" required>
+                <div class="c-form__item">
+                    <label class="c-form__label" for="field-name">お名前<span class="c-form__required">＊</span></label>
+                    <input
+                        name="entry.718493637"
+                        class="c-form__input"
+                        id="field-name"
+                        placeholder="デザイン太郎"
+                        type="text"
+                        required="required"
+                    />
                 </div>
-                <div class="form-row">
-                    <div class="form-label">
-                      <label for="email">メールアドレス</label>
-                      <span>＊</span>
-                    </div>
-                    <input type="text" id="email" name="email" placeholder="xxx@gmail.com" required>
+                <div class="c-form__item">
+                    <label class="c-form__label" for="field-mail"
+                        >メールアドレス<span class="c-form__required">＊</span></label>
+                    <input
+                        name="entry.1669858189"
+                        class="c-form__input"
+                        id="field-mail"
+                        placeholder="sample@gmail.com"
+                        type="email"
+                        required="required"
+                    />
                 </div>
-                <div class="form-row">
-                    <div class="form-label">
-                      <label for="message">お問い合わせ内容</label>
-                      <span>＊</span>
-                    </div>
-                    <textarea name="message" rows="10" cols="30" placeholder="お問い合わせ内容をご入力ください。" required></textarea>
+                <div class="c-form__item">
+                    <label class="c-form__label" for="field-message">お問い合わせ内容<span class="c-form__required">＊</span></label>
+                    <textarea
+                        name="entry.1504256483"
+                        class="c-form__input"
+                        id="field-message"
+                        placeholder="お問い合わせ内容"
+                        required="required"
+                    ></textarea>
                 </div>
-            </div>
-            <div class="form_btn">
-                <button type="submit">送信する</button>
-            </div>
-
-        </form>
+                <div class="c-form__submit">
+                    <button type="submit">送信する</button>
+                </div>
+            </form>
+            <form
+              action=" https://docs.google.com/forms/d/e/1FAIpQLSd2pTrGD4tcvM3rJk9L9wC2OPEgQTiqQBUQz22YMn4KL0TYVQ/viewform?usp=sf_link"
+              method="POST"
+            >
     </div>
-    
-
-
-
     <footer>
         <div class="pagetop">
             <a href="#header">
