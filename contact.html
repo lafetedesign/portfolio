@@ -62,7 +62,7 @@
                     <a href="./nekonote.html">NEKOnoTE</a>
                 </li>
             </ul>
-            <ul>
+            <ul class="sp_nav_contact">
                 <li>
                     <a href="./about.html">ABOUT</a>
                 </li>
@@ -77,8 +77,8 @@
     </header>
     <div class="container">
         <h2 class="section_title">CONTACT</h2>
-        <p>各種ご依頼やお問い合わせ、制作料金のご相談・ご質問など、<br>
-            お気軽にこちらのフォームよりご送信ください。<br>
+        <p>各種ご依頼やお問い合わせ、制作料金のご相談・ご質問など、
+            お気軽にこちらのフォームよりご送信ください。
             ２営業日以内でお返事させていただきます。</p>
             <form class="c-form">
                 <div class="c-form__item">
@@ -134,35 +134,78 @@
             >
     </div>
     <footer>
-        <div class="pagetop">
-            <a href="#header">
-                <img class="pagetop_btn" src="./images/19back to top01.png" onmouseover="this.src='./images/20back to top02.png'" onmouseout="this.src='./images/19back to top01.png'" alt="">
-             </a>
-        </div>
-        <div class="footer_inner">
-            <div class="footer_menu_contents">
-                <div class="footer_logo">
-                    <a href="./index.html">LAFETE DESIGN</a>
+        <div class="pc_footer">
+            <div class="pagetop">
+                <a href="#header">
+                    <img class="pagetop_btn" src="./images/19back to top01.png" onmouseover="this.src='./images/20back to top02.png'" onmouseout="this.src='./images/19back to top01.png'" alt="">
+                 </a>
+            </div>
+            <div class="footer_inner">
+                <div class="footer_menu_contents">
+                    <div class="footer_logo">
+                        <a href="./index.html">LAFETE DESIGN</a>
+                    </div>
+                    <div class="footer_menu">
+                        <ul class="footer_menu_block">
+                            <li><a href="./web.html">WEB DESIGN</a></li>
+                            <li><a href="./graphic.html">GRAPHIC DESIGN</a></li>
+                            <li><a href="./nekonote.html">NEKOnoTE</a></li>
+                        </ul>
+                        <ul class="footer_menu_block">
+                            <li><a href="./about.html">ABOUT</a></li>
+                            <li><a href="./contact.html">CONTACT</a></li>
+                            <li class="privacy"><a href="./privacy.html">PRIVACY POLICY</a></li>
+                        </ul>
+                    </div>
                 </div>
-                <div class="footer_menu">
-                    <ul class="footer_menu_block">
-                        <li><a href="./web.html">WEB DESIGN</a></li>
-                        <li><a href="./graphic.html">GRAPHIC DESIGN</a></li>
-                        <li><a href="./nekonote.html">NEKOnoTE</a></li>
-                    </ul>
-                    <ul class="footer_menu_block">
-                        <li><a href="./about.html">ABOUT</a></li>
-                        <li><a href="./contact.html">CONTACT</a></li>
-                        <li class="privacy"><a href="./privacy.html">PRIVACY POLICY</a></li>
-                    </ul>
+                <div class="footer_btn">
+                    <p class="footer_btn_text">オンラインでお打ち合わせも可能です。<br>無料でご相談・お見積りいたします。</p>
+                    <a class="btn bgleft" href="./contact.html"><p class="btn_text">\ design for you /</p><span class="contact">CONTACT</span></a>
                 </div>
             </div>
-            <div class="footer_btn">
-                <p class="footer_btn_text">オンラインでお打ち合わせも可能です。<br>無料でご相談・お見積りいたします。</p>
-                <a class="btn bgleft" href="./contact.html"><p class="btn_text">\ design for you /</p><span class="contact">CONTACT</span></a>
+            <p class="copyright">
+                &copy; LAFETE DESIGN
+            </p>
+        </div>
+        <div class="sp_only">  
+            <div class="footer_inner">
+                <div class="footer_menu_contents">
+                    <div class="footer_logo">
+                        <a href="./index.html">LAFETE DESIGN</a>
+                    </div>
+                    <div class="footer_menu">
+                        <ul class="footer_menu_block">
+                            <li><a href="./web.html">WEB DESIGN</a></li>
+                            <li><a href="./graphic.html">GRAPHIC DESIGN</a></li>
+                            <li><a href="./nekonote.html">NEKOnoTE</a></li>
+                        </ul>
+                        <ul class="footer_menu_block">
+                            <li><a href="./about.html">ABOUT</a></li>
+                            <li><a href="./contact.html">CONTACT</a></li>
+                            <li class="privacy"><a href="./privacy.html">PRIVACY POLICY</a></li>
+                            <p class="copyright">
+                                &copy; LAFETE DESIGN
+                            </p>
+                        </ul>
+                    </div>
+                </div>
+                <div class="pagetop">
+                    <a href="#header">
+                        <img class="pagetop_btn" src="./images/sp_back to top.png" alt="トップへ戻る">
+                     </a>
+                </div>
             </div>
         </div>
-        <p class="copyright">
-            &copy; LAFETE DESIGN
-        </p>
     </footer>
+    <script>
+        $(function(){
+            //*ハンバーガーメニュー*//
+            $(".hamburger").on('click', function(){
+                $(".sp_nav").fadeToggle();
+                $(".hamburger").toggleClass('open');
+            });
+        });
+    </script>
+    <script src="js/lightbox.min.js"></script>
+</body>
+</html>
