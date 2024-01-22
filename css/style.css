@@ -52,7 +52,7 @@
     position: relative;
     z-index: 3;
     color:#252526;
-    font-size: 18px;
+    font-size: 27px;
     letter-spacing: 2px;
 }
 .btn:hover span{
@@ -273,7 +273,7 @@
     color: #fff;
     font-size: 34px;
     font-weight: 400;
-    letter-spacing: 4px;
+    letter-spacing: 2px;
     font-family: "Cambay Devanagari";
 }
 .service_contents h3 img{
@@ -281,6 +281,9 @@
 }
 .service_center{
     width: 20%;
+}
+.service_center img{
+    width: 50%;
 }
 .service_btn_block{
     display: flex;
@@ -302,7 +305,7 @@
     text-align: center;
 	display: inline-block;
     text-decoration: none;
-    font-size: 16px;
+    font-size: 18px;
     letter-spacing: 2px;
     color: #252526;
     font-family: "Cambay Devanagari";
@@ -374,7 +377,7 @@
     transform: rotate(-90deg);
     bottom: 70px;
     margin-top: 400px;
-    font-size: 14px;
+    font-size: 18px;
     font-weight: 400;
     font-family: "Cambay Devanagari";
 }
@@ -522,9 +525,9 @@
     margin-top: 290px;
     padding: 0;
     font-size: 34px;
-    font-weight: 500;
+    font-weight: 600;
     font-family: "Cambay Devanagari";
-    letter-spacing: 5px;
+    letter-spacing: 4px;
 }
 .contact_inner{
     width: 100%;
@@ -536,6 +539,7 @@
     width: 100%;
 }
 .contact_text_pc{
+    font-weight: 500;
     margin-top:68px;
     text-align: center;
 }
@@ -579,7 +583,7 @@ footer{
 }
 .footer_menu_block li{
     color: #fff;
-    font-size: 16px;
+    font-size: 20px;
     letter-spacing: 2px;
     margin-bottom: 23px;
     font-family: "Cambay Devanagari";
@@ -599,14 +603,15 @@ footer{
 
 .footer_btn .btn{
     border: 1px solid #fff;
-    padding: 50px 100px;
+    padding: 40px 90px;
 }
 /*footer topのみ*/
 .footer_contact{
     font-size: 32px;
     font-weight: 500;
     font-family: "Cambay Devanagari";
-    letter-spacing: 6px;
+    letter-spacing: 4px;
+    
 }
 
 /*==下層ページ about==*/
@@ -709,6 +714,7 @@ footer{
     max-width: 1000px;
     display: flex;
     margin: 0 auto;
+    align-items: center;
     gap: 20px;
     justify-content: space-around;
     margin-top: 150px;
@@ -718,10 +724,10 @@ footer{
     max-width: 430px;
 }
 .profile_block_list{
-    font-size: 37px;
+    font-size: 50px;
     font-weight: 700;
     font-family: "Cambay Devanagari";
-    letter-spacing: 5px;
+    letter-spacing: 4px;
     margin-bottom: 64px;
     margin-left: -10px;
 }
@@ -729,9 +735,9 @@ footer{
     width: 17px;
 }
 .profile_block_message{
-    font-size: 37px;
+    font-size: 35px;
     font-weight: 600;
-    letter-spacing: 3px;
+    letter-spacing: 2px;
     margin-bottom: 64px;
 }
 /*.profile_block li::before {
@@ -781,15 +787,17 @@ footer{
 }
 .footer_btn_text{
     color: #fff;
+    font-size: 14px;
     line-height: 1.8;
     text-align: center;
-    margin-bottom: 15px;
+    margin-bottom: 10px;
 }
 .btn_text{
     font-size: 12px;
+    font-family: "Cambay Devanagari";
     color: #666666;
     letter-spacing: 2px;
-    margin-bottom: 16px;
+    margin-bottom: 5px;
 }
 
 
@@ -812,7 +820,7 @@ footer{
 }
 .title_block .section_title{
     font-size: 75px;
-    letter-spacing: 5px;
+    letter-spacing: 4px;
     text-align: center;
     margin-top: 0;
 }
@@ -824,7 +832,7 @@ footer{
     text-align: right;
     font-size: 20px;
     font-weight: 300;
-    margin-top: 10px;
+    margin-top: 8px;
 }
 .work-border{
     border: 1px solid #252526;
@@ -843,9 +851,10 @@ footer{
 .work_list .work-type{
     transform: rotate(-90deg);
     margin-top: 200px;
-    font-size: 14px;
+    font-size: 15px;
     font-weight: 400;
     font-family: "Cambay Devanagari";
+    letter-spacing: 1px;
 }
 
 .work_link:hover img{
@@ -956,10 +965,11 @@ aside {
     margin: 0;
     margin-bottom: 25px;
     justify-content: space-between;
+    padding: 0 15px;
 }
 .modalArea .section_title{
     font-size: 50px;
-    letter-spacing: 5px;
+    letter-spacing: 4px;
 }
 .modalArea .work-border{
     margin-top: 5px
@@ -968,7 +978,7 @@ aside {
     font-size: 15px;
 }
 .modal_textarea{
-    max-width: 500px;
+    max-width: 1000px;
     margin: 0 auto;
     text-align: center;
 }
@@ -978,12 +988,14 @@ aside {
     margin-bottom: 50px;
     font-feature-settings: "palt";
     text-align: left;
+    padding: 0 15px;
 }
 
 
 .price_contents{
     border: 1px solid #252526;
     border-radius: 5px;
+    margin: 0 15px;
     padding: 30px;
 }
 .price_group{
@@ -1064,22 +1076,23 @@ aside {
 .modalArea .support_item{
     height: 110px;
 }
-.modalArea .support_title h3 {
+/*.modalArea .support_title h3 {
     width: 100px;
     font-size: 20px;
-}
+    font-family: "Cambay Devanagari";
+}*/
 .modalArea .support_inner{
     margin-bottom: 30px;
     justify-content: space-around;
 }
 .modal_supportarea{
+    max-width: 500px;
     margin: 0 auto;
-    width: 100%;
     margin-bottom: 30px;
 }
 .modal_support{
     margin: 0 auto;
-    padding: 20px 40px;
+    padding: 20px;
 }
 .modalArea .support_item p{
     font-size: 14px;
@@ -1178,6 +1191,7 @@ aside {
 }
 .work_title_inner{
     display: flex;
+    align-items: center;
     margin-bottom: 55px;
 }
 .work_type{
@@ -1192,11 +1206,15 @@ aside {
 .work_title h2{
     font-size: 16px;
     font-weight: 500;
-    margin-bottom: 13px;
+    margin-bottom: 8px;
 }
 .work_title h2 span{
-    font-size: 20px;
+    font-size: 25px;
     margin-right: 10px;
+}
+.work_title a{
+    font-size: 16px;
+    font-family: "Cambay Devanagari";
 }
 .work_text{
     font-size: 16px;
@@ -1316,7 +1334,7 @@ aside {
     margin-right: 23px;
 }
 .work_graphic h2 span{
-    font-size: 30px;
+    font-size: 25px;
 }
 .work_graphic h2{
     margin-bottom: 0;
@@ -1362,11 +1380,11 @@ aside {
     margin-bottom: 93px;
 }
 .support_text{
-    width: 651px;
+    width: 700px;
     margin: 0 auto;
 }
 .support_text p{
-    font-size: 14px;
+    font-size: 16px;
     line-height: 1.8;
     text-align: center;
     margin-bottom: 127px;
@@ -1385,6 +1403,11 @@ aside {
     width: 100%;
     margin-top: 36px;
 }
+.support_group h3{
+    font-size: 30px;
+    font-family: "Cambay Devanagari";
+    letter-spacing: 4px;
+}
 /*背景画像を固定するパララックス*/
 .background {
     background-image: url("../images/nekonote/bg.jpg");
@@ -1392,7 +1415,7 @@ aside {
     background-size: cover;
     background-position: center;
     margin: 0 calc(50% - 50vw);
-    width: 99vw;
+    width:100vw;
     height: 700px;
     position: relative;
 }
@@ -1410,8 +1433,9 @@ aside {
 }
 .support_title h3{
     width: 248px;
-    font-size: 29px;
-    letter-spacing: 4px;
+    font-size: 32px;
+    font-family: "Cambay Devanagari";
+    letter-spacing: 2px;
     text-align: center;
 }
 .support_inner .service_center{
@@ -1558,7 +1582,6 @@ button:hover{
     .sp_mv{
         display: block;
     }
-
     .sp_nav{
         position: absolute;
         width: 100%;
@@ -1592,7 +1615,7 @@ button:hover{
     .sp_nav_contact .gnv-border{
         width: 30px;
         margin-top:16px;
-        border: 1px solid #252526;
+        border: 0.7px solid #252526;
     }
     .header_nav ,.header_contact{
         display: none;
@@ -1768,8 +1791,15 @@ button:hover{
         vertical-align: bottom;
         padding: 0 30px;
     }
+    .footer_btn {
+       max-width: 500px;
+    }
     .footer_btn .btn {
-        padding: 20px 30px;
+        width: 100%;
+        padding: 30px 60px;
+    }
+    .footer_btn_text {
+        font-size: 14px;
     }
     .footer_contact {
         font-size: 20px;
@@ -1789,15 +1819,11 @@ button:hover{
     .owner_img img {
         width: 100%;
     }
-    .footer_btn_text {
-        font-size: 14px;
-    }
     .contact{
         font-size: 25px;
     }
     .btn_text {
         font-size: 10px;
-        margin-bottom: 10px;
     }
     .support_text_sub {
         margin-top: 150px;
@@ -1806,13 +1832,27 @@ button:hover{
     }
     .support_inner{
         justify-content: space-around;
-        padding: 0 100px;
+        padding: 0 10px;
     }
     .support_title{
         justify-content: space-around;
+        padding: 0 30px;
+        margin-bottom: 20px;
+        gap:120px;
     }
     .support{
         margin-bottom: 100px;
+    }
+    .support_item{
+        max-width: 600px;
+        max-height: 90px;
+        margin: 0 auto;
+    }
+    .background{
+        height: 600px;
+    }
+    .support_contents{
+        top:-100px;
     }
     .work_graphic .work_title_contents{
         max-width: 800px;
@@ -1826,6 +1866,7 @@ button:hover{
     .work_banner .work_table{
         gap:17px
     }
+    
     
 
     
@@ -1861,7 +1902,6 @@ button:hover{
     .circle_btn{
         width: 70px;
         margin-top: -40px;
-        margin-right: 25px;
     }
     .gallery-slider{
         margin-top: 100px;
@@ -2003,10 +2043,10 @@ button:hover{
     }
     .support_text_sp p{
         padding: 0 30px;
-        font-size: 14px;
+        font-size: 16px;
         line-height: 1.8;
         text-align: center;
-        margin-bottom: 50px;
+        margin-bottom: 60px;
     }
     .support_subtitle{
         margin-bottom: 50px;
@@ -2031,7 +2071,9 @@ button:hover{
     }
     .work_banner .work_table{
       display: flex;
-
+    }
+    .support_group img{
+        margin-top: 20px;
     }
 
    
@@ -2102,15 +2144,15 @@ button:hover{
         font-size: 25px;
     }
     .section_title{
-        font-size: 36px;
+        font-size: 50px;
         letter-spacing: 4px;
     }
     .subtitle p {
         font-size: 14px;
-        margin-top: 7px;
+        margin-top: 5px;
     }
     .title_block .section_title{
-        font-size: 45px;
+        font-size: 38px;
         letter-spacing: 3px;
     }
     .service{
@@ -2139,14 +2181,20 @@ button:hover{
     }
     .service_center{
         width: 100%;
-        margin: 40px 0 30px 0;
+        margin: 30px 0 20px 0;
+    }
+    .service_center img{
+        width: 10%;
     }
     .service_icon, .sp_only{
         margin: 0;
     }
     .service_icon{
-        text-align: right;
+        width: 100%;
         margin-top: -60px;
+    }
+    .service_icon img{
+        text-align: right;
     }
     .graphic-design{
         padding: 0 30px;
@@ -2175,6 +2223,7 @@ button:hover{
     }
     .contact_text_sp p {
         font-size: 16px;
+        font-weight: 500;
         line-height: 1.8;
         letter-spacing: 0;
         text-align: center;
@@ -2256,9 +2305,19 @@ button:hover{
         text-align: center;
         margin-bottom: 10px;
     }
+    .sp_work-type_min{
+        width: 120px;
+        font-size: 12px;
+        font-family: "Cambay Devanagari";
+        color: #fff;
+        background-color: #252526;
+        padding: 5px;
+        text-align: center;
+        margin-bottom: 10px;
+    }
     .sp_work-title{
         font-size: 14px;
-        margin-bottom: 10px;
+        margin-bottom: 5px;
         font-weight: 300;
     }
     .sp_work-client{
@@ -2288,8 +2347,11 @@ button:hover{
         width: 80%;
         margin-top: 16px;
     }
+    .support_title{
+        gap:90px;
+    }
     .support_title h3{
-        font-size: 16px;
+        font-size: 20px;
     }
     .support_subtitle{
         font-size: 16px;
@@ -2300,10 +2362,6 @@ button:hover{
         font-size: 12px;
         font-weight: 700;
     }
-    .support_item{
-        max-width: 200px;
-        max-height: 90px;
-    }
     .support_inner{
         margin-bottom: 23px;
         gap:5px;
@@ -2311,7 +2369,6 @@ button:hover{
     }
     .support_contents{
         top:-100px;
-        padding: 0 30px;
     }
     .support_inner .service_center img {
         width: 70%;
@@ -2321,6 +2378,7 @@ button:hover{
         background-image: url("../images/nekonote/bg_sp.jpg");
     }
     .support_text_sub{
+        font-size: 14px;
         margin-top: 100px;
     }
     .section_title img{
@@ -2345,14 +2403,10 @@ button:hover{
         width: 100%;
         padding: 30px 0;
     }
-    .modalWrapper .title_block{
-        padding: 0 15px;
-    }
+
     .modalArea .subtitle p{
-        margin-top: 7px;
-    }
-    .modal_text{
-        padding: 0 15px;
+        margin-top: 10px;
+        font-size: 12px;
     }
     .price_contents{
         padding: 0 15px;
@@ -2382,9 +2436,6 @@ button:hover{
     }
     #modalArea04 .price_box ul :last-child{
         margin-top: 20px;
-    }
-    .modal_support{
-        padding: 20px;
     }
     .modalArea .support_item p{
         font-size: 12px;
