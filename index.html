@@ -14,6 +14,9 @@
     <link rel="stylesheet" href="./css/style.css"> 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cambay:wght@400;700&display=swap" rel="stylesheet">
 
 </head>
 <body>
@@ -170,8 +173,8 @@
             <div class="service_contents">
                 <h3>DESIGN<img src="./images/06pc.png" alt=""></h3>
                 <div class="service_btn_block">
-                    <a class="btntextchange" href="./web.html"><span>WEB</span><span>ウェブデザイン</span></a>
-                    <a class="btntextchange" href="./graphic.html"><span>GRAPHIC</span><span>グラフィックデザイン</span></a>
+                    <a class="btntextchange" href="./web.html"><span>WEB</span><span class="btnchange_ja">ウェブデザイン</span></a>
+                    <a class="btntextchange" href="./graphic.html"><span>GRAPHIC</span><span class="btnchange_ja">グラフィックデザイン</span></a>
                 </div>
             </div>
             <div class="service_center"><img src="./images/03X.png" alt=""></div>
@@ -181,7 +184,7 @@
             <div class="service_contents">
                 <h3>NEKOnoTE</h3>
                 <div class="service_btn_block">
-                    <a class="btntextchange" href="./nekonote.html"><span>事務</span><span>NEKOnoTE</span></a>
+                    <a class="btntextchange" href="./nekonote.html"><span class="btnchange_ja">事務</span><span>NEKOnoTE</span></a>
                 </div>
             </div>
         </div>
@@ -223,7 +226,7 @@
                 <p class="work-title">HAIR SALON</p>
                 <p class="work-client">LIFE hair design</p>
                 <div class="work_btn">
-                    <a href="./webwork_LIFE.html"><img class="circle_btn" src="./images/10click here.png" alt="最新の制作実績へリンクするボタン"></a>
+                    <a href="./webwork_LIFE.html"><img class="circle_btn" src="./images/10click-here.png" alt="最新の制作実績へリンクするボタン"></a>
                 </div>
             </div>
         </div>
@@ -261,7 +264,7 @@
             <a class="btn bgleft" href="./graphic.html"><span>MORE</span></a>
         </div>
     </section>
-    <section class="contact">
+    <div class="contact">
         <div class="contact_text_sp">
             <p>オンラインでお打ち合わせも可能です。<br>
                 無料でご相談・お見積りいたします。</p>
@@ -269,12 +272,18 @@
         <div class="contact_inner">
             <div class="contact_block">
                 <a href="./about.html">
-                    <img class="contact_btn" src="./images/15watashi01.jpg" onmouseover="this.src='./images/16watashi02.jpg'" onmouseout="this.src='./images/15watashi01.jpg'" alt="ねこ">
-                </a>
+                    <picture>
+                        <source srcset="./images/sp_watashi_top.jpg" media="(max-width:767px)">
+                        <img class="contact_btn" src="./images/15watashi01.jpg" onmouseover="this.src='./images/16watashi02.jpg'" onmouseout="this.src='./images/15watashi01.jpg'" alt="WATASHIリンクボタン">
+                    </picture>
+                </a>    
             </div>
             <div class="contact_block">
                 <a href="./contact.html">
-                    <img class="contact_btn" src="./images/17contact01.jpg" onmouseover="this.src='./images/18contact02.jpg'" onmouseout="this.src='./images/17contact01.jpg'" alt="問い合わせを待つねこ">
+                    <picture>
+                        <source srcset="./images/sp_contact_top.jpg" media="(max-width:767px)">
+                    <img class="contact_btn" src="./images/17contact01.jpg" onmouseover="this.src='./images/18contact02.jpg'" onmouseout="this.src='./images/17contact01.jpg'" alt="CONTACTリンクボタン">
+                    </picture>
                 </a>
             </div>
         </div>
@@ -282,12 +291,12 @@
             <p>オンラインでお打ち合わせも可能です。<br>
                 無料でご相談・お見積りいたします。</p>
         </div>
-    </section>
+    </div>
     <footer>
         <div class="pc_footer">
             <div class="pagetop">
                 <a href="#header">
-                    <img class="pagetop_btn" src="./images/19back to top01.png" onmouseover="this.src='./images/20back to top02.png'" onmouseout="this.src='./images/19back to top01.png'" alt="トップへ戻る">
+                    <img class="pagetop_btn" src="./images/19back-to-top01.png" onmouseover="this.src='./images/20back-to-top02.png'" onmouseout="this.src='./images/19back-to-top01.png'" alt="トップへ戻る">
                  </a>
             </div>
             <div class="footer_inner">
@@ -308,7 +317,7 @@
                         </ul>
                     </div>
                 </div>
-                <div class="footer_btn">
+                <div class="footer_btn_top-only">
                     <a class="btn bgleft" href="./about.html"><span class="footer_contact">let's go!</span></a>
                 </div>
             </div>
@@ -340,7 +349,7 @@
                 </div>
                 <div class="pagetop">
                     <a href="#header">
-                        <img class="pagetop_btn" src="./images/sp_back to top.png" alt="トップへ戻る">
+                        <img class="pagetop_btn" src="./images/sp_back-to-top.png" alt="トップへ戻る">
                      </a>
                 </div>
                 
