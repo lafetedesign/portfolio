@@ -857,7 +857,12 @@ footer{
     gap:50px;
     margin-bottom: 98px;
 }
-
+.work-text{
+    font-size: 14px;
+    line-height: 1.8;
+    margin-top: 5px;
+    margin-left: 12px;
+}
 .work_list .work-type{
     transform: rotate(-90deg);
     margin-top: 200px;
@@ -866,7 +871,6 @@ footer{
     font-family: "Cambay Devanagari";
     letter-spacing: 1px;
 }
-
 .work_link:hover img{
     transform: scale(1.04);
     transition-duration: 0.5s;
@@ -1281,7 +1285,6 @@ aside {
     outline: none;
     font-size: 16px;
     font-family: "Cambay Devanagari";
-    letter-spacing: 4px;
     display: table;
     padding: 1em 2.5em;
     min-width: 15em;
@@ -1511,7 +1514,7 @@ aside {
 
 /*==コンタクトフォーム==*/
 .container p{
-    max-width: 430px;
+    max-width: 600px;
     font-size: 14px;
     line-height: 1.8;
     margin: 80px auto;

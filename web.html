@@ -229,14 +229,14 @@
                     <!-- pc版 -->
                     <div class="web_gallery">
                         <div class="work-type">WEB SITE</div>
-                        <a class="work_link" href="https://lafetedesign.github.io/designcafe./"><img src="./images/web/DESIGNCAFE.jpg" alt="デザインカフェ"></a>
+                        <a class="work_link" href="./works/work_designcafe.html"><img src="./images/web/DESIGNCAFE.jpg" alt="デザインカフェ"></a>
                         <p class="work-title">CAFE</p>
                         <p class="work-client"><span>DESIGN CAFE</span>[fiction]</p> 
                     </div>
                     <!-- sp版 -->
                     <div class="sp_gallery">
                         <div class="sp_gallery_img">
-                            <a class="sp_work_link" href="https://lafetedesign.github.io/designcafe./"><img src="./images/web/DESIGN CAFE.jpg" alt="デザインカフェ"></a>
+                            <a class="sp_work_link" href="./works/work_designcafe.html"><img src="./images/web/DESIGN CAFE.jpg" alt="デザインカフェ"></a>
                         </div>
                         <div class="sp_gallery_inner">
                             <div class="sp_work-type">WEB SITE</div>
@@ -288,7 +288,7 @@
 
     <!-- モーダルエリア -->
     <section id="modalArea01" class="modalArea">
-        <div class="modalBg"></div>
+        <div class="modalBg closeModal"></div>
         <div class="modalWrapper">
             <div class="modal-scroll">
                 <div class="title_block">
@@ -384,7 +384,7 @@
     </section>
     
     <section id="modalArea02" class="modalArea">
-        <div class="modalBg"></div>
+        <div class="modalBg closeModal"></div>
         <div class="modalWrapper">
             <div class="modal-scroll">
                 <div class="title_block">
@@ -411,7 +411,7 @@
     </section>
     
     <section id="modalArea03" class="modalArea">
-        <div class="modalBg"></div>
+        <div class="modalBg closeModal"></div>
         <div class="modalWrapper">
             <div class="modal-scroll">
                 <div class="title_block">
@@ -427,8 +427,7 @@
                          事務職歴15年が、デザインだけでなくあなたの事業をサポートいたします。<br>
                          わたしがあなたのサポートをすることで、あなたは事業に集中でき、あなたの先のお客様へ、あなたの＋αが届くことを願っています。
                      </p>
-                </div>
-                
+                </div>                
                 <div class="modal_support">
                     <div class="modal_supportarea">
                         <div class="support_inner">
@@ -571,11 +570,12 @@
               $('.modalArea').fadeOut();
            });
         });
-            //*ハンバーガーメニュー*//
-            $(".hamburger").on('click', function(){
-                $(".sp_nav").fadeToggle();
-                $(".hamburger").toggleClass('open');
-            });
+            /*ハンバーガーメニュー*/
+        $(".hamburger").on('click', function(){
+            $(".sp_nav").fadeToggle();
+            $(".hamburger").toggleClass('open');
+        });
+
 
     </script>
     <script src="js/lightbox.min.js"></script>
