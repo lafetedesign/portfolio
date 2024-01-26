@@ -288,7 +288,7 @@
 
     <!-- モーダルエリア -->
     <section id="modalArea01" class="modalArea">
-        <div class="modalBg closeModal"></div>
+        <div class="modalBg CloseModal"></div>
         <div class="modalWrapper">
             <div class="modal-scroll">
                 <div class="title_block">
@@ -377,14 +377,14 @@
                     <p class="price_group_text">上記は目安です。素材の有無や制作の内容により、料金の変動が発生いたします。</p>
                 </div>
             </div>
-        </div>
-        <div class="CloseModal closeModal">
-            ×
+            <div class="CloseModal closeModal">
+                ×
+            </div>
         </div>
     </section>
     
     <section id="modalArea02" class="modalArea">
-        <div class="modalBg closeModal"></div>
+        <div class="modalBg CloseModal"></div>
         <div class="modalWrapper">
             <div class="modal-scroll">
                 <div class="title_block">
@@ -404,9 +404,9 @@
                     </picture>
                 </div>
             </div>
-        </div>
-        <div class="CloseModal closeModal">
-            ×
+            <div class="CloseModal closeModal">
+                ×
+            </div>
         </div>
     </section>
     
@@ -445,8 +445,7 @@
                                 ホームページを見に来られたお客様に最新の情報や日々の活動をお知らせしましょう。<br>
                                 この更新のお手続きをLAFETE DESIGNでご対応で可能です。<br>
                                 あなたは事業に集中し、ホームページは「ねこの手」をかりてみませんか。</p>
-                        </div>
-                            
+                        </div>     
                     </div>
                     <div class="modal_supportarea">
                         
@@ -468,9 +467,9 @@
                     </div>
                 </div>
             </div>
-        </div>
-        <div class="CloseModal closeModal">
-            ×
+            <div class="CloseModal closeModal">
+                ×
+            </div>
         </div>
     </section>
           <!-- モーダルエリアここまで -->
@@ -559,7 +558,7 @@
          /*モーダル*/
         $(function(){
             var modal_open = $('.menu_btn');
-            var modal_close = $('.closeModal');
+            var modal_close = $('.closeModal, .CloseModal');
         
             modal_open.on('click', function(){
               var target = $(this).data('target');

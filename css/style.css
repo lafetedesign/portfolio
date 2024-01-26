@@ -19,7 +19,7 @@
     letter-spacing: 10px;
     text-align: center;
     margin-top: 80px;
-    font-family: "Cambay Devanagari";
+    font-family: "Cambay Devanagari", "Cambay";
 }
 
 /*==背景が流れるボタン共通設定==*/
@@ -30,7 +30,7 @@
     text-align: center;
     outline: none;
     font-size: 16px;
-    font-family: "Cambay Devanagari";
+    font-family: "Cambay Devanagari", "Cambay";
     letter-spacing: 2px;
     display: table;
     padding: 1em 2.5em;
@@ -671,7 +671,7 @@ footer{
 .owner_item h3{
     font-size: 43px;
     letter-spacing: 2px;
-    margin-bottom: 46px;
+    margin-bottom: 27px;
     font-family: "Cambay Devanagari";
 }
 .owner_name{
@@ -966,12 +966,12 @@ aside {
   }
 .closeModal {
     position: absolute;
-    top: 0.5rem;
-    right: 1rem;
+    right: 0;
     cursor: pointer;
     color: #fff;
-    font-size: 40px;
+    font-size: 34px;
     font-weight: 100;
+    bottom: -39px
 }
 
 /*モーダル中身*/
@@ -1955,7 +1955,7 @@ button:hover{
         justify-content: center;
         align-items: center;
         width: 50%;
-        padding:15px 20px;
+        padding:20px;
         margin:0;
         font-size: 14px;
         border-right: 1px solid #fff;
@@ -1968,7 +1968,7 @@ button:hover{
         max-width: 460px;
         margin: 0 auto;
         text-align: center;
-        margin-top: 20px;
+        margin: 50px 0;
         padding: 0 30px;
     }
     .about_sp_img img{
@@ -2001,7 +2001,7 @@ button:hover{
     .owner_item h3 {
         font-size: 25px;
         margin-top: 20px;
-        margin-bottom: 10px;
+        margin-bottom: 5px;
     }
     .owner_name{
         font-size: 30px;
@@ -2033,6 +2033,7 @@ button:hover{
     .message{
         max-width: 460px;
         font-size: 16px;
+        margin-top: 60px;
         padding: 0 30px;
     }
     .profile_block_list {
@@ -2170,8 +2171,16 @@ button:hover{
     .about_message .about_lead{
         font-size: 22px;
     }
+    .btntextchange {
+        min-width: 100px;
+        padding: 16px;
+    }
+    .btnchange_ja{
+        font-size: 12px;
+        letter-spacing: 1px;
+    }
     .section_title{
-        font-size: 50px;
+        font-size: 37px;
         letter-spacing: 4px;
     }
     .subtitle p {
@@ -2191,9 +2200,6 @@ button:hover{
     }
     .service_contents h3 img {
         width: 24px;
-    }
-    .btntextchange {
-        min-width: 100px;
     }
     .service_inner{
         display: block;
@@ -2440,10 +2446,12 @@ button:hover{
         width: 100%;
         padding: 30px 0;
     }
-
     .modalArea .subtitle p{
         margin-top: 6px;
         font-size: 12px;
+    }
+    .price_box{
+        gap:14px;
     }
     .price_contents{
         padding: 0 15px;
@@ -2507,6 +2515,10 @@ button:hover{
     .work-border{
         margin-top: 4px;
     }
+    .sign{
+        line-height: 1.5;
+        margin-top: 0;
+        letter-spacing: 1px;
 }
     
 
