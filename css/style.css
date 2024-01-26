@@ -590,6 +590,7 @@ footer{
     letter-spacing: 2px;
     margin-bottom: 23px;
     font-family: "Cambay Devanagari", "Cambay";
+}
 .privacy a{
     font-size: 12px;
     font-family: "Cambay Devanagari", "Cambay";
@@ -2518,11 +2519,8 @@ button:hover{
         line-height: 1.5;
         margin-top: 0;
         letter-spacing: 1px;
-}
-    
-
-@media screen and (max-width: 730px){
-    
+    }
+} 
 @media screen and (max-width: 560px){
     .work_table{
         display: block;
