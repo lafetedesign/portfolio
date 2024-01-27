@@ -484,12 +484,40 @@
               $('.modalArea').fadeOut();
            });
         });
-            //*ハンバーガーメニュー*//
-            $(".hamburger").on('click', function(){
-                $(".sp_nav").fadeToggle();
-                $(".hamburger").toggleClass('open');
+        /*モーダルの位置*/
+        if (window.matchMedia('(max-width:900px)').matches) {
+            $(function() {
+            var lastScrollTop = 0; //前回のスクロール位置を記録する変数
+            $(window).on("scroll", function() {
+                var currentScroll = $(this).scrollTop(); //現在のスクロール位置
+                if (currentScroll > 100){
+                    $(".sp_modal").fadeIn(300);
+                }else{
+                    $(".sp_modal").fadeOut(300);
+                }
+                const scrollHeight = $(document).height(); //ページ全体の高さ
+                const scrollPosition = $(window).height() + currentScroll; //スクロールされた距離
+                const footHeight = $("footer").height(); //フッターの高さ
+                if(scrollHeight - scrollPosition <= footHeight) {
+                    $(".sp_modal").css({
+                        "position":"absolute",
+                        "bottom": 0
+                    });
+                }  else {
+                    $(".sp_modal").css({
+                        "position": "fixed",
+                        "bottom": 0 //上にスクロールするときの位置を固定
+                    });
+                }
+                lastScrollTop = currentScroll; //現在のスクロール位置を記録
             });
-
+         });
+        }
+         //*ハンバーガーメニュー*//
+        $(".hamburger").on('click', function(){
+            $(".sp_nav").fadeToggle();
+            $(".hamburger").toggleClass('open');
+        });  
     </script>
     <script src="js/lightbox.min.js"></script>
 </body>
