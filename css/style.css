@@ -354,7 +354,7 @@
     border-top: 1px solid currentColor;
 }
 .btnchange_ja{
-    font-size: 14px;
+    font-size: 16px;
 }
 /*==TOP web design==*/
 .web-design{
@@ -1334,9 +1334,9 @@ aside {
     justify-content: space-between;
     margin: 30px 0 5px 0;
 }
-.work_graphic .work_title_contents{
+/*.work_graphic .work_title_contents{
     max-width: 1100px;
-}
+}*/
 .work_type_wide{
     width: 193px;
     color: #fff;
@@ -1346,7 +1346,7 @@ aside {
     text-align: center;
     margin-right: 23px;
 }
-.work_graphic h2 span{
+/*.work_graphic h2 span{
     font-size: 25px;
 }
 .work_graphic h2{
@@ -1357,7 +1357,7 @@ aside {
 }
 .work_graphic{
     padding: 30px;
-}
+}*/
 .work_mv_min{
     max-width: 800px;
     margin: 0 auto;
@@ -1885,7 +1885,7 @@ button:hover{
     .support_contents{
         top:-100px;
     }
-    .work_graphic .work_title_contents{
+    /*.work_graphic .work_title_contents{
         max-width: 800px;
     }
     .work_graphic .work_desc{
@@ -1893,7 +1893,7 @@ button:hover{
     }
     .work_graphic .work_table{
         gap:17px
-    }
+    }*/
     .work_banner .work_table{
         gap:17px
     }  
@@ -2200,8 +2200,7 @@ button:hover{
         padding: 16px;
     }
     .btnchange_ja{
-        font-size: 12px;
-        letter-spacing: 1px;
+        font-size: 14px;
     }
     .section_title{
         position: relative;
@@ -2549,19 +2548,19 @@ button:hover{
         margin-bottom: 20px;
         padding: 10px;
     }
-    .work_graphic h2 span{
+    /*.work_graphic h2 span{
         font-size: 20px;
-    }
+    }*/
     .work_type_wide{
         width: 150px;
         font-size: 12px;
         padding: 7px;
         margin-bottom: 10px;
     }
-    .work_graphic .work_type{
+    /*.work_graphic .work_type{
         margin-bottom: 20px;
         padding: 10px;
-    }
+    }*/
     .work-border{
         margin-top: 4px;
     }
