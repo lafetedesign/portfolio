@@ -84,7 +84,7 @@
     border-radius: 2px;
     margin-top: 100px;
 }
-.sp_nav, .sp_mv, .sp_only, .sp_about, .web_sp, .sp_service, .graphic_text_sp, .contact_text_sp, .sp_modal, .sp_gallery, .about_block_sp, .support_text_sp, .title_text_sp, .sp_only_min, .sp_text{
+.sp_nav, .sp_mv, .sp_only, .sp_about, .web_sp, .sp_service, .graphic_text_sp, .contact_text_sp, .sp_modal, .sp_gallery, .about_block_sp, .support_text_sp, .title_text_sp, .sp_only_min, .sp_text, .modal_text_sp{
     display: none;
 }
 
@@ -98,8 +98,8 @@
     display: flex;
     width: 90%;
     justify-content: space-between;
-    padding: 30px 70px;
-    z-index: 9999;
+    padding: 30px 100px;
+    z-index: 9998;
     background: #fff;
 }
 .logo a{
@@ -141,6 +141,7 @@
 }
 .main_visual{
     display: flex;
+    margin-top: 100px;
 }
 .mv_main{
     width: calc(100% - 460px);
@@ -825,7 +826,7 @@ footer{
     margin: 100px 0;
 }
 .title_block{
-    max-width: 875px;
+    max-width: 1500px;
     display: flex;
     margin: 0 auto;
     justify-content: space-between;
@@ -853,7 +854,7 @@ footer{
     margin-top: 15px;
 }
 .work_list{
-    max-width: 875px;
+    max-width: 1500px;
     margin: 0 auto;
 }
 .work_menu{
@@ -898,14 +899,14 @@ footer{
     font-size: 16px;
     /*line-height: 1.5;*/
 }
-main{
+/*main{
     max-width: 2000px;
-}
+}*/
 /* サイドメニューボタン設置 */
 .content-wrap{
     display: flex;
-    justify-content: space-between;
-    gap:30px;
+    justify-content:space-around;
+    gap:50px;
     padding: 80px;
 }
 aside {
@@ -1001,7 +1002,7 @@ aside {
     margin: 0 auto;
     text-align: center;
 }
-.modal_text{
+.modal_text, .modal_text_pc{
     font-size: 12px;
     line-height: 1.8;
     margin-bottom: 50px;
@@ -1198,7 +1199,7 @@ aside {
 .work_mv{
     max-width: 1100px;
     margin: 0 auto;
-    margin-top: 30px;
+    margin-top: 150px;
     margin-bottom: 122px;
 }
 .work_mv img{
@@ -1310,7 +1311,7 @@ aside {
     max-width: 650px;
     margin: 0 auto;
     text-align: center;
-    margin-top: 100px;
+    margin-top: 150px;
     margin-bottom: 100px;
 }
 .work_banner .work_title_contents{
@@ -1367,15 +1368,15 @@ aside {
     max-width: 800px;
     margin: 0 auto;
     text-align: center;
-    margin-top: 100px;
     margin-bottom: 100px;
 }
 .work_mv_min img{
-    width: 100%;
+    width: 50%;
+    margin-top: 150px;
 }
 /*==NEKOnoTE==*/
 .support{
-    margin-bottom: 200px;
+    margin: 200px 0;
 }
 .support_contents{
     position: absolute;
@@ -1491,7 +1492,9 @@ aside {
 .privacy-policy{
     max-width: 757px;
     margin: 0 auto;
+    margin-top: 200px;
     margin-bottom: 100px;
+    padding: 30px;
 }
 .privacy-policy h2{
     font-size: 38px;
@@ -1512,7 +1515,6 @@ aside {
 .privacy-policy li{
     font-size: 14px;
     line-height: 1.8;
-    list-style-type: square;
 }
 
 
@@ -1616,15 +1618,18 @@ button:hover{
     .sp_mv{
         display: block;
     }
+    .header_container{
+        padding: 30px;
+    }
     .sp_nav{
         position: fixed;
         width: 100%;
         height: 100vh;
         background-color:#fff;
-        z-index: 9000;
+        z-index: 9995;
     }
     .sp_nav ul{
-        margin-top: 100px;
+        margin-top: 150px;
     }
     .sp_nav li{
         padding: 10px 30px;
@@ -1780,6 +1785,9 @@ button:hover{
     .work_list{
         padding: 30px;
     }
+    .work_list .work-client{
+        font-size: 14px;
+    }
     .modalArea .section_title{
         font-size: 50px;
     }
@@ -1818,7 +1826,7 @@ button:hover{
     .price_title p{
         font-size: 14px;
     }
-    .modal_text{
+    .modal_text, .modal_text_pc{
         margin-bottom: 30px;
     }
     .price_item ul{
@@ -1914,9 +1922,6 @@ button:hover{
     }
     .sp_modal, .sp_text{
         display: block;
-    }
-    .header_container {
-        padding: 40px 30px 10px 30px
     }
     .btntextchange{
         min-width: 120px;
@@ -2137,7 +2142,7 @@ button:hover{
     .sp_about, .sp_service, .web_sp, .sp_only, .graphic_text_sp{
         display: block;
     }
-    .content-wrap .web_gallery, .title_text{
+    .content-wrap .web_gallery, .title_text, .slick-nav-arrows{
         display: none;
     }
     .pc-tab_only, .graphic_text_pc, .contact_text_pc{
@@ -2145,6 +2150,12 @@ button:hover{
     }
     .pc_footer{
         display: none;
+    }
+    .header_container{
+        padding:20px 30px;
+    }
+    .hamburger{
+        top:37px;
     }
     .mv_copy{
         font-size: 23px;
@@ -2404,6 +2415,7 @@ button:hover{
         width: 80px;
         font-size: 12px;
         font-family: "Cambay Devanagari", "Cambay";
+        letter-spacing: 1px;
         color: #fff;
         background-color: #252526;
         padding: 5px;
@@ -2422,16 +2434,20 @@ button:hover{
     }
     .sp_work-title{
         font-size: 14px;
-        margin-bottom: 5px;
         font-weight: 300;
+        letter-spacing: 1px;
+        margin-bottom: 5px;
+
     }
     .sp_work-client{
-        font-size: 16px;
+        font-size: 14px;
         font-weight: 300;
+        letter-spacing: 1px;
         line-height: 1.5;
         font-feature-settings: "palt";
     }
     .sp_work-client span{
+        font-size: 18px;
         font-weight: 400;
     }
     .btn_block span {
@@ -2461,7 +2477,7 @@ button:hover{
     }
     .support_subtitle{
         font-size: 16px;
-        margin-top: 20px;
+        margin-top: 16px;
         margin-bottom: 50px;
     }
     .support_item p{
@@ -2508,11 +2524,15 @@ button:hover{
     }
     .modalWrapper{
         width: 100%;
+        margin-top: 10px;
         padding: 30px 0;
     }
     .modalArea .subtitle p{
         margin-top: 6px;
         font-size: 12px;
+    }
+    .modalArea .price_title p{
+        font-size: 13px;
     }
     .price_box{
         gap:14px;
@@ -2604,6 +2624,18 @@ button:hover{
     .web-design .circle_btn {
         margin-right: -7px;
     }
+    .modal_text_pc{
+        display: none;
+    }
+    .modal_text_sp{
+        display: block;
+        font-size: 12px;
+        line-height: 1.8;
+        font-feature-settings: "palt";
+        text-align: left;
+        margin-bottom: 30px;
+        padding: 0 15px;
+    }
 }
 @media screen and (max-width: 440px){
     .sp_only_min{
@@ -2611,5 +2643,8 @@ button:hover{
     }
     .pc-tab-sp{
         display: none;
+    }
+    .work-detail p{
+        font-size: 12px;
     }
 }
