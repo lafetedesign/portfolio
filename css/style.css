@@ -637,18 +637,18 @@ footer{
 }
 .about_message .about_lead{
     color: #252526;
-    font-size: 29px;
+    font-size: 23px;
     font-weight: 600;
 }
 .about_textarea .about_text{
     color: #252526;
-    margin: 41px 0;
+    margin: 30px 0;
     font-size: 16px;
     width: 100%;
 }
 .about_textarea .bottom_space{
     color: #252526;
-    margin: 41px 0;
+    margin: 30px 0;
     font-size: 16px;
     width: 100%;
 }
@@ -714,10 +714,10 @@ footer{
 }
 .sign{
     margin-top: 44px;
-    font-size: 16px;
+    font-size: 18px;
     font-family: "Cambay Devanagari", "Cambay";
-    line-height: 1.8;
-    letter-spacing: 2px;
+    line-height: 1.5;
+    letter-spacing: 1px;
     text-align: right;
 }
 .profile_contents{
@@ -1568,6 +1568,7 @@ input, textarea{
     font-weight: 400;
     font-family: "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", "メイリオ", "Hiragino Kaku Gothic ProN", "Hiragino Sans", sans-serif;;
 }
+
 button {
     width: 200px;
     cursor: pointer;
@@ -1586,6 +1587,21 @@ button:hover{
 .c-form__submit{
     text-align: center;
 }
+.thanks_message{
+    color: #252526;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    margin: 50px 0;
+}
+.thanks_text{
+    color: #252526;
+    font-size: 18px;
+    line-height: 1.8;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
 
 
 
@@ -1732,13 +1748,15 @@ button:hover{
     }
     .about_block img{
         width: 100%;
+        height: 500px;
+        object-fit: cover;
     }
     .about_lead{
-        width: 220px;
-        font-size: 26px;
+        max-width: 260px;
+        font-size: 40px;
     }
     .about_message{
-        max-width: 300px;
+        max-width: 400px;
     }
     .about_contents{
         margin-left: 30px;
@@ -1959,7 +1977,7 @@ button:hover{
         justify-content: center;
         align-items: center;
         width: 50%;
-        padding:20px;
+        padding:25px 20px;
         margin:0;
         font-size: 14px;
         border-right: 1px solid #fff;
@@ -1972,7 +1990,7 @@ button:hover{
         max-width: 460px;
         margin: 0 auto;
         text-align: center;
-        margin: 50px 0;
+        margin: 100px 0;
         padding: 0 30px;
     }
     .about_sp_img img{
@@ -2019,7 +2037,7 @@ button:hover{
         text-align: center;
     }
     .profile_block{
-        margin: 130px 0;
+        margin: 100px 0;
     }
     .profile_block li, .profile_block p {
         text-align: left;
@@ -2111,7 +2129,7 @@ button:hover{
     .content-wrap .web_gallery, .title_text{
         display: none;
     }
-    .pc-tab_only, .graphic_text_pc, .slick-nav-arrows, .contact_text_pc{
+    .pc-tab_only, .graphic_text_pc, .contact_text_pc{
         display: none;
     }
     .pc_footer{
@@ -2159,7 +2177,7 @@ button:hover{
         height: auto;
     }
     .about_lead{
-        width: 100%;
+        max-width: 300px;
         font-size: 22px;
         text-align: left;
         margin: 50px 0;
@@ -2189,7 +2207,7 @@ button:hover{
     .section_title{
         position: relative;
         padding: 10px;
-        font-size: 37px;
+        font-size: 35px;
         letter-spacing: 4px;
     }
     .section_title::before{
@@ -2269,6 +2287,17 @@ button:hover{
     .graphic-subtitle{
         display: none;
     }
+    .slick-prev::after{
+        top:33%;
+        left:69%;
+    }
+    .slick-next::after{
+        top:33%;
+        left: 49%;
+    }
+    .slick-prev::before, .slick-next::before{
+        padding: 5px;
+    }
     .graphic_text_sp{
         font-size: 16px;
         line-height: 1.8;
@@ -2312,8 +2341,8 @@ button:hover{
         font-size: 20px;
     }
     .footer_menu_block li{
-        font-size: 18px;
-        margin-bottom: 8px;
+        font-size: 20px;
+        margin-bottom: 16px;
     }
     .privacy{
         margin-top: 70px;
@@ -2369,7 +2398,7 @@ button:hover{
         margin-bottom: 10px;
     }
     .sp_work-type_min{
-        width: 120px;
+        width: 126px;
         font-size: 12px;
         font-family: "Cambay Devanagari", "Cambay";
         color: #fff;
@@ -2400,11 +2429,12 @@ button:hover{
         margin-top: 20px;
     }
     .support_group{
-        gap:5px;
+        gap:0px;
         margin-bottom: 200px;
     }
     .support_group h3{
-        font-size: 12px;
+        font-size: 15px;
+        letter-spacing: 1px;
     }
     .support_group img {
         width: 80%;
@@ -2541,7 +2571,16 @@ button:hover{
         margin-top: 0;
         letter-spacing: 1px;
     }
+    .thanks_message{
+        font-size: 18px;
+        margin: 30px 0;
+    }
+    .thanks_text{
+        font-size: 16px;
+    }
 } 
+
+
 @media screen and (max-width: 560px){
     .work_table{
         display: block;

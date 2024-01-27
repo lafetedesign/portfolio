@@ -136,6 +136,13 @@
                 <button type="submit">送信する</button>
             </div>
         </form>
+        <form
+    action="https://docs.google.com/forms/d/e/1FAIpQLSd2pTrGD4tcvM3rJk9L9wC2OPEgQTiqQBUQz22YMn4KL0TYVQ/viewform?usp=sf_link"
+    method="POST"
+    target="hidden_iframe"
+    onsubmit="submitted=true;"
+    class="c-form"
+>
     </div>
     <footer>
         <div class="pc_footer">
@@ -164,7 +171,7 @@
                 </div>
                 <div class="footer_btn">
                     <p class="footer_btn_text">オンラインでお打ち合わせも可能です。<br>無料でご相談・お見積りいたします。</p>
-                    <a class="btn bgleft" href="./contact.html"><p class="btn_text">\ design for you /</p><span class="contact">CONTACT</span></a>
+                    <a class="btn bgleft" href="./contact.html"><p class="btn_text">design for you</p><span class="contact">CONTACT</span></a>
                 </div>
             </div>
             <p class="copyright">
@@ -210,6 +217,15 @@
             });
         });
     </script>
+    <script type="text/javascript">
+        let submitted = false;
+    </script>
+    <iframe
+        name="hidden_iframe"
+        id="hidden_iframe"
+        style="display: none"
+        onload="if(submitted){window.location='./thanks.html';}"
+    ></iframe>
     <script src="js/lightbox.min.js"></script>
 </body>
 </html>
