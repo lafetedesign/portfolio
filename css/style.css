@@ -54,6 +54,7 @@
     color:#252526;
     font-size: 23px;
     letter-spacing: 2px;
+    vertical-align: bottom;
 }
 .btn:hover span{
     color:#fff;
@@ -325,8 +326,8 @@
 	left: 50%;
 	top:50%;
     transform:translate(-50%,-50%);
-    /*アニメーションの指定*/
     transition: all .5s;
+    vertical-align: bottom;
   /*ブロック要素にしてテキスト折り返しなし*/  
 	display: block;
 	white-space: nowrap;
@@ -413,7 +414,7 @@
     font-family: "Cambay Devanagari", "Cambay";
 }
 .work-client{
-    margin: 13px 0 0 13px;
+    margin: 4px 0 0 13px;
     font-size: 14px;
     font-feature-settings: "palt";
 }
@@ -1803,8 +1804,7 @@ button:hover{
     }
     .gallery-slider a img{
         max-width: 90%;
-        vertical-align: bottom;
-        padding: 0 30px;
+        margin: 0 auto;
     }
     .footer_btn {
        max-width: 500px;
@@ -1905,6 +1905,10 @@ button:hover{
     .web_gallery{
         width: 90%;
         margin: 0 auto;
+        margin-right: 6px;
+    }
+    .web-design_inner{
+        gap:70px;
     }
     header .circle_btn{
         margin-top: -35px;
@@ -2126,7 +2130,7 @@ button:hover{
         font-size: 34px;
         font-weight: 600;
         letter-spacing: 3px;
-        margin-top: 10px;
+        margin-top: 15px;
     }
     .mv_img{
         height: 100%;
@@ -2171,6 +2175,9 @@ button:hover{
     .about_message .about_lead{
         font-size: 22px;
     }
+    .about-btn{
+        margin: 0 auto;
+    }
     .btntextchange {
         min-width: 100px;
         padding: 16px;
@@ -2180,16 +2187,30 @@ button:hover{
         letter-spacing: 1px;
     }
     .section_title{
+        position: relative;
+        padding: 10px;
         font-size: 37px;
         letter-spacing: 4px;
     }
+    .section_title::before{
+        position: absolute;
+        border-bottom: 2px solid #353535;
+        top: 100%;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 50px;
+        content: '';
+    }
     .subtitle p {
         font-size: 14px;
-        margin-top: 5px;
+        margin-top: 15px;
     }
     .title_block .section_title{
         font-size: 38px;
         letter-spacing: 3px;
+    }
+    .title_block .section_title::before{
+        display: none;
     }
     .service{
         margin: 157px 0 130px 0;
@@ -2259,7 +2280,7 @@ button:hover{
     }
     .contact_text_sp p {
         font-size: 16px;
-        font-weight: 500;
+        font-weight: 400;
         line-height: 1.8;
         letter-spacing: 0;
         text-align: center;
@@ -2292,7 +2313,7 @@ button:hover{
     }
     .footer_menu_block li{
         font-size: 18px;
-        margin-bottom: 20px;
+        margin-bottom: 8px;
     }
     .privacy{
         margin-top: 70px;
@@ -2305,7 +2326,7 @@ button:hover{
         margin-right: 0;
     }
     .pagetop img{
-        width: 53px;        
+        width: 70px;        
     }
     .work_menu{
         display: block;
