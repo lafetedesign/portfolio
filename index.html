@@ -428,23 +428,18 @@
                 });
             };
         });
-        //*オープニング*//  
-        $(window).on('load',function(){
-            $("#splash").delay(3000).fadeOut('slow');//ローディング画面を3秒（3000ms）待機してからフェイドアウト
-	        $("#splash_logo").delay(3000).fadeOut('slow');//ロゴを3秒（3000ms）待機してからフェイドアウト
-                stroke.play();//SVGアニメーションの実行
-        });
+   
 
-//*オープニング1回のみ*//   
-/*const webStorage = function () {
-  if (sessionStorage.getItem('visit')) {
-    $("#splash").css("display", "none");
-  } else {
-    sessionStorage.setItem('visit', 'true'); 
-    $("#splash").delay(4000).fadeOut(4000);
-  }
-}
-webStorage();*/
+        //*オープニング1回のみ*//   
+        const webStorage = function () {
+            if (sessionStorage.getItem('visit')) {
+            $("#splash").css("display", "none");
+            } else {
+                sessionStorage.setItem('visit', 'true'); 
+                $("#splash").delay(3000).fadeOut(2000);
+            }
+        }
+        webStorage();
 
         //*スライダー軽く*//
         lightbox.option({

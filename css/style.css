@@ -1725,9 +1725,6 @@ button:hover{
     color: #fff;
     background-color: #252526;
 }
-.c-form__submit{
-    text-align: center;
-}
 .thanks_message{
     color: #252526;
     font-size: 20px;
@@ -2467,7 +2464,7 @@ button:hover{
     }
     .graphic_title_block .section_title {
         font-size: 40px;
-        letter-spacing: 4px;
+        letter-spacing: 2px;
         text-align: center;
     }
     .graphic-subtitle{
