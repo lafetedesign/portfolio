@@ -24,7 +24,7 @@ g .cls-3, .cls-2, .cls-1 {
     stroke-dasharray: 1000px;
     stroke: #252526;
     stroke-width: 1px;
-    animation: svgAnime 10.0s;        
+    animation: svgAnime 10.0s linear;        
 }
 @keyframes svgAnime {
     0% {
