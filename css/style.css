@@ -684,6 +684,7 @@ main{
 }
 .contact_btn{
     width: 100%;
+    float: left;
 }
 .contact_text_pc{
     font-weight: 500;
@@ -827,7 +828,7 @@ main{
 
 .owner_cat{
     color: #fff;
-    font-size: 13px;
+    font-size: 14px;
     font-weight: 400;
     font-family: "Cambay Devanagari", "Cantarell";
     background-color: #252526;
