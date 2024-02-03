@@ -1645,7 +1645,7 @@ aside {
     width: 248px;
     font-size: 32px;
     font-family: "Cambay Devanagari", "Cantarell";
-    letter-spacing: 2px;
+    letter-spacing: 1px;
     text-align: center;
 }
 .support_inner .service_center{
@@ -2239,12 +2239,12 @@ button:hover{
         text-align: left;
     }
     .owner_item h3 {
-        font-size: 25px;
+        font-size: 20px;
         margin-top: 20px;
-        margin-bottom: 5px;
+        margin-bottom: 8px;
     }
     .owner_name{
-        font-size: 30px;
+        font-size: 25px;
         font-weight: 600;
         margin-bottom: 40px;
     }
@@ -2469,7 +2469,7 @@ button:hover{
     }
     .title_block .section_title{
         font-size: 32px;
-        letter-spacing: 2px;
+        letter-spacing: 1px;
         padding: 0 10px 0 0 ;
     }
     .title_block .section_title::before{
@@ -2646,7 +2646,7 @@ button:hover{
         margin-bottom: 10px;
     }
     .sp_work-type_min{
-        width: 130px;
+        width: 200px;
         font-size: 12px;
         font-family: "Cambay Devanagari", "Cantarell";
         color: #fff;
