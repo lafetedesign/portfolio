@@ -140,7 +140,7 @@ body.appear #container{
     letter-spacing: 4px;
     text-align: center;
     margin-top: 110px;
-    font-family: "Cambay Devanagari", "Cantarell";
+    font-family: "Cambay Devanagari", "Open Sans", sans-serif;
 }
 
 /*==背景が流れるボタン共通設定==*/
@@ -151,7 +151,7 @@ body.appear #container{
     text-align: center;
     outline: none;
     font-size: 16px;
-    font-family: "Cambay Devanagari", "Cantarell";
+    font-family: "Cambay Devanagari", "Open Sans", sans-serif;
     letter-spacing: 2px;
     display: table;
     padding: 1em 2.5em;
@@ -242,7 +242,7 @@ body.appear #container{
 .header_nav a{
     font-size: 20px;
     font-weight: 600;
-    font-family: "Cambay Devanagari", "Cantarell";
+    font-family: "Cambay Devanagari", "Open Sans", sans-serif;
     letter-spacing: 2px;
 }
 .header_contact ul{
@@ -259,7 +259,7 @@ body.appear #container{
     font-size: 20px;
     font-weight: 600;
     letter-spacing: 2px;
-    font-family: "Cambay Devanagari", "Cantarell";
+    font-family: "Cambay Devanagari", "Open Sans", sans-serif;
 }
 .main_visual{
     display: flex;
@@ -293,7 +293,7 @@ body.appear #container{
     font-size: 30px;
     font-weight: 500;
     letter-spacing: 4px;
-    font-family: "Cambay Devanagari", "Cantarell";
+    font-family: "Cambay Devanagari", "Open Sans", sans-serif;
 }
 .mv_copy img{
     width: 24px;
@@ -304,7 +304,7 @@ body.appear #container{
     font-weight: 600;
     letter-spacing: 4px;
     margin-bottom: 78px;
-    font-family: "Cambay Devanagari", "Cantarell";
+    font-family: "Cambay Devanagari", "Open Sans", sans-serif;
 }
 
 /*==TOP about==*/
@@ -420,7 +420,7 @@ main{
     font-size: 38px;
     font-weight: 400;
     letter-spacing: 2px;
-    font-family: "Cambay Devanagari", "Cantarell";
+    font-family: "Cambay Devanagari", "Open Sans", sans-serif;
 }
 .service_contents h3 img{
     width: 43px;
@@ -455,7 +455,7 @@ main{
     font-size: 18px;
     letter-spacing: 1px;
     color: #252526;
-    font-family: "Cambay Devanagari", "Cantarell";
+    font-family: "Cambay Devanagari", "Open Sans", sans-serif;
     outline: none;
     transition: all .2s;
 }
@@ -527,7 +527,7 @@ main{
     margin-top: 400px;
     font-size: 18px;
     font-weight: 400;
-    font-family: "Cambay Devanagari", "Cantarell";
+    font-family: "Cambay Devanagari", "Open Sans", sans-serif;
 }
 .work-type_pc-only{
     position: absolute;
@@ -537,7 +537,7 @@ main{
     margin-top: 400px;
     font-size: 18px;
     font-weight: 400;
-    font-family: "Cambay Devanagari", "Cantarell";
+    font-family: "Cambay Devanagari", "Open Sans", sans-serif;
 }
 .work_link img{
     width: 90%;
@@ -554,7 +554,7 @@ main{
 .work-title{
     margin: 13px 0 0 13px;
     font-size: 34px;
-    font-family: "Cambay Devanagari", "Cantarell";
+    font-family: "Cambay Devanagari", "Open Sans", sans-serif;
 }
 .work-client{
     margin: 4px 0 0 13px;
@@ -673,7 +673,7 @@ main{
     margin-top: 200px;
     padding: 0;
     font-weight: 500;
-    font-family: "Cambay Devanagari", "Cantarell";
+    font-family: "Cambay Devanagari", "Open Sans", sans-serif;
     letter-spacing: 4px;
 }
 .contact_inner{
@@ -718,7 +718,7 @@ main{
     font-weight: 600;
     letter-spacing: 2px;
     margin-bottom: 54px;
-    font-family: "Cambay Devanagari", "Cantarell";
+    font-family: "Cambay Devanagari", "Open Sans", sans-serif;
 }
 .footer_menu{
     display: flex;
@@ -732,11 +732,11 @@ main{
     font-size: 20px;
     letter-spacing: 2px;
     margin-bottom: 25px;
-    font-family: "Cambay Devanagari", "Cantarell";
+    font-family: "Cambay Devanagari", "Open Sans", sans-serif;
 }
 .privacy a{
     font-size: 12px;
-    font-family: "Cambay Devanagari", "Cantarell";
+    font-family: "Cambay Devanagari", "Open Sans", sans-serif;
 }
 .copyright{
     background-color: #252526;
@@ -744,7 +744,7 @@ main{
     font-size: 12px;
     color: #fff;
     padding-bottom: 41px;
-    font-family: "Cambay Devanagari", "Cantarell";
+    font-family: "Cambay Devanagari", "Open Sans", sans-serif;
 }
 
 .footer_btn .btn{
@@ -756,7 +756,7 @@ main{
 .footer_contact{
     font-size: 32px;
     font-weight: 500;
-    font-family: "Cambay Devanagari", "Cantarell";
+    font-family: "Cambay Devanagari", "Open Sans", sans-serif;
     letter-spacing: 4px;
 }
 .footer_btn_top-only{
@@ -817,20 +817,20 @@ main{
     font-size: 43px;
     letter-spacing: 2px;
     margin-bottom: 27px;
-    font-family: "Cambay Devanagari", "Cantarell";
+    font-family: "Cambay Devanagari", "Open Sans", sans-serif;
 }
 .owner_name{
     font-size: 26px;
     letter-spacing: 2px;
     margin-bottom: 66px;
-    font-family: "Cambay Devanagari", "Cantarell";
+    font-family: "Cambay Devanagari", "Open Sans", sans-serif;
 }
 
 .owner_cat{
     color: #fff;
     font-size: 14px;
     font-weight: 400;
-    font-family: "Cambay Devanagari", "Cantarell";
+    font-family: "Cambay Devanagari", "Open Sans", sans-serif;
     background-color: #252526;
     padding: 0 16px;
     border-radius: 2px;
@@ -859,7 +859,7 @@ main{
 .sign{
     margin-top: 44px;
     font-size: 18px;
-    font-family: "Cambay Devanagari", "Cantarell";
+    font-family: "Cambay Devanagari", "Open Sans", sans-serif;
     line-height: 1.5;
     letter-spacing: 1px;
     text-align: right;
@@ -880,7 +880,7 @@ main{
 .profile_block_list{
     font-size: 50px;
     font-weight: 700;
-    font-family: "Cambay Devanagari", "Cantarell";
+    font-family: "Cambay Devanagari", "Open Sans", sans-serif;
     letter-spacing: 4px;
     margin-bottom: 64px;
     margin-left: -10px;
@@ -937,7 +937,7 @@ main{
 .btn_block span{
     font-size: 32px;
     font-weight: 600;
-    font-family: "Cambay Devanagari", "Cantarell";
+    font-family: "Cambay Devanagari", "Open Sans", sans-serif;
     letter-spacing: 4px;
 }
 .footer_btn_text{
@@ -949,7 +949,7 @@ main{
 }
 .btn_text{
     font-size: 12px;
-    font-family: "Cambay Devanagari", "Cantarell";
+    font-family: "Cambay Devanagari", "Open Sans", sans-serif;
     color: #666666;
     letter-spacing: 2px;
     margin-bottom: 5px;
@@ -1014,7 +1014,7 @@ main{
     margin-top: 200px;
     font-size: 16px;
     font-weight: 400;
-    font-family: "Cambay Devanagari", "Cantarell";
+    font-family: "Cambay Devanagari", "Open Sans", sans-serif;
     letter-spacing: 1px;
 }
 .work_link:hover img{
@@ -1033,7 +1033,7 @@ main{
     margin: 13px 0 0 13px;
     color: #666;
     font-size: 16px;
-    font-family: "Cambay Devanagari", "Cantarell";
+    font-family: "Cambay Devanagari", "Open Sans", sans-serif;
 }
 .work_list .work-client{
     margin: 13px 0 0 13px;
@@ -1062,7 +1062,7 @@ aside {
 .menu_btn{
     font-size: 25px;
     color: #fff;
-    font-family: "Cambay Devanagari", "Cantarell";
+    font-family: "Cambay Devanagari", "Open Sans", sans-serif;
     background-color: #252526;
     border-radius: 2px;
     text-align: center;
@@ -1377,7 +1377,7 @@ aside {
 }
 .work_title a{
     font-size: 16px;
-    font-family: "Cambay Devanagari", "Cantarell";
+    font-family: "Cambay Devanagari", "Open Sans", sans-serif;
 }
 
 /*== 波紋がふわっと広がる */
@@ -1481,7 +1481,7 @@ aside {
     text-align: center;
     outline: none;
     font-size: 16px;
-    font-family: "Cambay Devanagari", "Cantarell";
+    font-family: "Cambay Devanagari", "Open Sans", sans-serif;
     display: table;
     padding: 1em 2.5em;
     min-width: 15em;
@@ -1616,7 +1616,7 @@ aside {
 }
 .support_group h3{
     font-size: 30px;
-    font-family: "Cambay Devanagari", "Cantarell";
+    font-family: "Cambay Devanagari", "Open Sans", sans-serif;
     letter-spacing: 4px;
 }
 /*背景画像を固定するパララックス*/
@@ -1645,7 +1645,7 @@ aside {
 .support_title h3{
     width: 248px;
     font-size: 32px;
-    font-family: "Cambay Devanagari", "Cantarell";
+    font-family: "Cambay Devanagari", "Open Sans", sans-serif;
     letter-spacing: 1px;
     text-align: center;
 }
@@ -1826,7 +1826,7 @@ button:hover{
         padding: 10px 30px;
         font-size: 21px;
         font-weight: 600;
-        font-family: "Cambay Devanagari", "Cantarell";
+        font-family: "Cambay Devanagari", "Open Sans", sans-serif;
         letter-spacing: 4px;
         line-height: 2.0;
         color:#252526;
@@ -2640,7 +2640,7 @@ button:hover{
     .sp_work-type{
         width: 80px;
         font-size: 12px;
-        font-family: "Cambay Devanagari", "Cantarell";
+        font-family: "Cambay Devanagari", "Open Sans", sans-serif;
         letter-spacing: 1px;
         color: #fff;
         background-color: #252526;
@@ -2651,7 +2651,7 @@ button:hover{
     .sp_work-type_min{
         width: 150px;
         font-size: 12px;
-        font-family: "Cambay Devanagari", "Cantarell";
+        font-family: "Cambay Devanagari", "Open Sans", sans-serif;
         color: #fff;
         background-color: #252526;
         padding: 5px 3px;
