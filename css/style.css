@@ -1,7 +1,4 @@
 @charset "utf-8";
-/*"Cambay Devanagari", */
-
-
 /*========= LoadingのためのCSS ===============*/
 /* Loading背景画面設定 */
 #splash {
@@ -25,19 +22,19 @@
 g .cls-3 {
     stroke-dasharray: 1000px;
     stroke: #252526;
-    stroke-width: 0.5px;
-    animation: svgAnime01 7.0s cubic-bezier(1, 0.19, 0.63, 0.78);        
+    stroke-width: 0.75px;
+    animation: svgAnime01 5.0s cubic-bezier(1, 0.19, 0.63, 0.78);        
 }
 @keyframes svgAnime01 {
     0% {
         stroke-dashoffset: 1000px;
         fill: transparent;
         }
-    20% {
+    29% {
         stroke-dashoffset: 0px;
         fill: transparent;
         }
-    38% {
+    33% {
         stroke-dashoffset: 0px;
         /*stroke: transparent;*/
         fill:#252526;
@@ -92,7 +89,7 @@ g .cls-2, .cls-1{
 body.appear .splashbg{
     display:block;
     animation-name:PageAnime;
-    animation-duration:1.2s;
+    animation-duration:1.0s;
     animation-timing-function:ease-in-out;
     animation-fill-mode:forwards;
     content: "";
@@ -306,7 +303,7 @@ body.appear #container{
 
 .mv_inner{
     width: 460px;
-    margin-top: 280px;
+    margin-top: 290px;
     margin-left: 80px;
     margin-right: -120px;
     z-index: 1;
@@ -706,8 +703,8 @@ main{
     letter-spacing: 4px;
 }
 .contact_block{
-    border-top: 1px solid #252526;
-    border-bottom:  1px solid #252526;
+    border-top: 0.8px solid #252526;
+    border-bottom:  0.8px solid #252526;
     float: left;
     top:0;
     left:0;
@@ -2505,7 +2502,8 @@ button:hover{
         position: relative;
         margin-top: 150px;
         padding: 10px 30px;
-        font-size: 26px;
+        font-size: 30px;
+        letter-spacing: 1px;
     }
     .section_title::before{
         position: absolute;
@@ -2579,9 +2577,10 @@ button:hover{
         margin-top: 130px;
     }
     .graphic_title_block .section_title {
-        font-size: 26px;
-        letter-spacing: 2px;
+        font-size: 28px;
+        letter-spacing: 1px;
         text-align: center;
+        padding: 10px 0; 
     }
     .graphic-subtitle{
         display: none;
@@ -2716,7 +2715,6 @@ button:hover{
         font-size: 14px;
         font-weight: 300;
         font-family: 'Cantarell',"游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", "メイリオ", sans-serif;
-        letter-spacing: 1px;
         margin-bottom: 5px;
     }
     .sp_work-client{
@@ -2862,8 +2860,8 @@ button:hover{
     }
     .work_banner .work_type{
         width: 100px;
-        margin-bottom: 20px;
-        padding: 10px;
+        margin-bottom: 10px;
+        padding: 5px;
     }
     /*.work_graphic h2 span{
         font-size: 20px;
@@ -2972,5 +2970,9 @@ button:hover{
     }
     .work_title h2{
         font-weight: 300;
+    }
+    .mv_inner{
+        font-size: 27px;
+        letter-spacing: 2px;
     }
 }

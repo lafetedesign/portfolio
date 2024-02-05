@@ -32,7 +32,7 @@
     <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="./images/favicon/favicon-16x16.png">
     <link rel="manifest" href="./images/favicon/site.webmanifest">
-    <link rel="mask-icon" href="./images/favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <link rel="mask-icon" href="./images/favicon/safari-pinned-tab.svg" color="#d60050">
     <meta name="msapplication-TileColor" content="#ffffff">
     <meta name="theme-color" content="#ffffff">
 </head>
@@ -308,7 +308,7 @@
                 <div class="gallery-slider">
                     <a href="./works/work_takenoko.html"><img src="./images/11graphic01.jpg" alt="たけのこ整体院リーフレット"></a>
                     <a href="./works/work_mhouse.html"><img src="./images/12graphic02.jpg" alt="株式会社m.houseチラシ"></a>
-                    <a href="./works/work_sweetsweets.html"><img src="./images/sp_graphic.jpg" alt="sweetsweetsブランドブック"></a>
+                    <a href="./works/work_sweetsweets.html"><img src="./images/13graphic03.jpg" alt="sweetsweetsブランドブック"></a>
                     <a href="./works/work_kjex02.html"><img src="./images/14graphic04.jpg" alt="ケイジェックス株式会社チラシ"></a>
                 </div>
                 <div class="common-btn">
@@ -396,9 +396,9 @@
                                 <li><a href="./about.html">ABOUT</a></li>
                                 <li><a href="./contact.html">CONTACT</a></li>
                                 <li class="privacy"><a href="./privacy.html">PRIVACY POLICY</a></li>
-                                <div class="copyright">
+                                <p class="copyright">
                                     &copy; LAFETE DESIGN
-                                </div>
+                                </p>
                             </ul>
                         </div>
                     </div>
@@ -467,7 +467,7 @@
                 $("#container").css("opacity", "1");
             } else {
                sessionStorage.setItem('visit', 'true'); 
-               $("#splash").delay(4000).fadeOut('fast',function(){//ローディングエリア（splashエリア）をフェードアウトする記述
+               $("#splash").delay(3300).fadeOut(function(){//ローディングエリア（splashエリア）をフェードアウトする記述
                    $('body').addClass('appear');//フェードアウト後bodyにappearクラス付与
                });
             }
