@@ -1,4 +1,6 @@
 @charset "utf-8";
+/*"Cambay Devanagari", */
+
 
 /*========= LoadingのためのCSS ===============*/
 /* Loading背景画面設定 */
@@ -90,7 +92,7 @@ g .cls-2, .cls-1{
 body.appear .splashbg{
     display:block;
     animation-name:PageAnime;
-    animation-duration:1.5s;
+    animation-duration:1.2s;
     animation-timing-function:ease-in-out;
     animation-fill-mode:forwards;
     content: "";
@@ -156,11 +158,11 @@ body.appear #container{
 
  /*==セクションタイトル共通設定==*/
 .section_title{
-    font-size: 86px;
-    letter-spacing: 4px;
+    font-size: 76px;
+    letter-spacing: 2px;
     text-align: center;
     margin-top: 110px;
-    font-family: "Cambay Devanagari", "Nunito Sans", sans-serif;
+    font-family:'Cantarell', sans-serif;
 }
 
 /*==背景が流れるボタン共通設定==*/
@@ -171,7 +173,7 @@ body.appear #container{
     text-align: center;
     outline: none;
     font-size: 16px;
-    font-family: "Cambay Devanagari", "Nunito Sans", sans-serif;
+    font-family:'Cantarell', sans-serif;
     letter-spacing: 2px;
     display: table;
     padding: 1em 2.5em;
@@ -193,7 +195,7 @@ body.appear #container{
     position: relative;
     z-index: 3;
     color:#252526;
-    font-size: 23px;
+    font-size: 20px;
     letter-spacing: 2px;
 }
 .btn:hover span{
@@ -261,10 +263,10 @@ body.appear #container{
     gap: 55px;
 }
 .header_nav a{
-    font-size: 18px;
-    font-weight: 600;
-    font-family:"Cambay Devanagari", "Nunito Sans", sans-serif;
-    letter-spacing: 2px;
+    font-size: 16px;
+    font-weight: 700;
+    font-family:'Cantarell', sans-serif;
+    letter-spacing: 1px;
 }
 .header_contact ul{
     display: flex;
@@ -277,10 +279,10 @@ body.appear #container{
     border: 0.5px solid #252526;
 }
 .header_contact a{
-    font-size: 18px;
-    font-weight: 600;
-    letter-spacing: 2px;
-    font-family: "Cambay Devanagari", "Nunito Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    font-family:'Cantarell', sans-serif;
 }
 .main_visual{
     display: flex;
@@ -290,7 +292,7 @@ body.appear #container{
     position: fixed;
     right: 0;
     width: calc(100% - 460px);
-    margin-top: 100px;
+    margin-top: 120px;
     z-index: -1;
 }   
 .mv_img{
@@ -302,7 +304,7 @@ body.appear #container{
 
 .mv_inner{
     width: 460px;
-    margin-top: 240px;
+    margin-top: 280px;
     margin-left: 80px;
     margin-right: -120px;
     z-index: 1;
@@ -311,21 +313,23 @@ body.appear #container{
     width: 100%;
 }
 .mv_copy{
-    font-size: 30px;
+    font-size: 28px;
     font-weight: 500;
-    letter-spacing: 4px;
-    font-family: "Cambay Devanagari", "Nunito Sans", sans-serif;
+    font-family:'Cantarell', sans-serif;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
 }
 .mv_copy img{
     width: 24px;
-    margin: 0 15px;
+    margin: 0 15px 2px 13px;
+
 }
 .mv_logo{
-    font-size: 42px;
+    font-size: 38px;
     font-weight: 600;
-    letter-spacing: 4px;
+    letter-spacing: 1px;
     margin-bottom: 60px;
-    font-family: "Cambay Devanagari", "Nunito Sans", sans-serif;
+    font-family:'Cantarell', sans-serif;
 }
 
 /*==TOP about==*/
@@ -438,10 +442,10 @@ main{
 }
 .service_contents h3{
     color: #fff;
-    font-size: 38px;
+    font-size: 36px;
     font-weight: 400;
-    letter-spacing: 2px;
-    font-family: "Cambay Devanagari", "Nunito Sans", sans-serif;
+    letter-spacing: 1px;
+    font-family:'Cantarell', sans-serif;
 }
 .service_contents h3 img{
     width: 43px;
@@ -474,9 +478,8 @@ main{
 	display: inline-block;
     text-decoration: none;
     font-size: 18px;
-    letter-spacing: 1px;
     color: #252526;
-    font-family: "Cambay Devanagari", "Nunito Sans", sans-serif;
+    font-family:'Cantarell', sans-serif;
     outline: none;
     transition: all .2s;
 }
@@ -548,7 +551,7 @@ main{
     margin-top: 400px;
     font-size: 18px;
     font-weight: 400;
-    font-family: "Cambay Devanagari", "Nunito Sans", sans-serif;
+    font-family:'Cantarell', sans-serif;
 }
 .work-type_pc-only{
     position: absolute;
@@ -558,7 +561,7 @@ main{
     margin-top: 400px;
     font-size: 18px;
     font-weight: 400;
-    font-family: "Cambay Devanagari", "Nunito Sans", sans-serif;
+    font-family:'Cantarell', sans-serif;
 }
 .work_link img{
     width: 90%;
@@ -574,11 +577,11 @@ main{
 }
 .work-title{
     margin: 13px 0 0 13px;
-    font-size: 34px;
-    font-family: "Cambay Devanagari", "Nunito Sans", sans-serif;
+    font-size: 27px;
+    font-family:'Cantarell', sans-serif;
 }
 .work-client{
-    margin: 4px 0 0 13px;
+    margin: 7px 0 0 16px;
     font-size: 14px;
     font-feature-settings: "palt";
 }
@@ -697,7 +700,7 @@ main{
     margin-top: 200px;
     padding: 0;
     font-weight: 500;
-    font-family: "Cambay Devanagari", "Nunito Sans", sans-serif;
+    font-family:'Cantarell', sans-serif;
     letter-spacing: 4px;
 }
 .contact_inner{
@@ -738,11 +741,11 @@ main{
 }
 .footer_logo{
     color: #fff;
-    font-size: 35px;
+    font-size: 31px;
     font-weight: 600;
     letter-spacing: 2px;
     margin-bottom: 54px;
-    font-family: "Cambay Devanagari", "Nunito Sans", sans-serif;
+    font-family:'Cantarell', sans-serif;
 }
 .footer_menu{
     display: flex;
@@ -754,13 +757,13 @@ main{
 .footer_menu_block li{
     color: #fff;
     font-size: 20px;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
     margin-bottom: 25px;
-    font-family: "Cambay Devanagari", "Nunito Sans", sans-serif;
+    font-family:'Cantarell', sans-serif;
 }
 .privacy a{
     font-size: 12px;
-    font-family: "Cambay Devanagari", "Nunito Sans", sans-serif;
+    font-family:'Cantarell', sans-serif;
 }
 .copyright{
     background-color: #252526;
@@ -768,7 +771,7 @@ main{
     font-size: 12px;
     color: #fff;
     padding-bottom: 41px;
-    font-family: "Cambay Devanagari", "Nunito Sans", sans-serif;
+    font-family:'Cantarell', sans-serif;
 }
 
 .footer_btn .btn{
@@ -780,7 +783,7 @@ main{
 .footer_contact{
     font-size: 32px;
     font-weight: 500;
-    font-family: "Cambay Devanagari", "Nunito Sans", sans-serif;
+    font-family:'Cantarell', sans-serif;
     letter-spacing: 4px;
 }
 .footer_btn_top-only{
@@ -838,23 +841,23 @@ main{
     border: 0.7px solid #252526;
 }
 .owner_item h3{
-    font-size: 43px;
-    letter-spacing: 2px;
-    margin-bottom: 27px;
-    font-family: "Cambay Devanagari", "Nunito Sans", sans-serif;
+    font-size: 38px;
+    letter-spacing: 1px;
+    margin-bottom: 23px;
+    font-family:'Cantarell', sans-serif;
 }
 .owner_name{
-    font-size: 26px;
-    letter-spacing: 2px;
-    margin-bottom: 66px;
-    font-family: "Cambay Devanagari", "Nunito Sans", sans-serif;
+    font-size: 24px;
+    letter-spacing: 1px;
+    margin-bottom: 59px;
+    font-family:'Cantarell', sans-serif;
 }
 
 .owner_cat{
     color: #fff;
     font-size: 14px;
     font-weight: 400;
-    font-family: "Cambay Devanagari", "Nunito Sans", sans-serif;
+    font-family:'Cantarell', sans-serif;
     background-color: #252526;
     padding: 0 16px;
     border-radius: 2px;
@@ -883,9 +886,8 @@ main{
 .sign{
     margin-top: 44px;
     font-size: 18px;
-    font-family: "Cambay Devanagari", "Nunito Sans", sans-serif;
+    font-family:'Cantarell', sans-serif;
     line-height: 1.5;
-    letter-spacing: 1px;
     text-align: right;
 }
 .profile_contents{
@@ -902,10 +904,10 @@ main{
     max-width: 430px;
 }
 .profile_block_list{
-    font-size: 50px;
+    font-size: 43px;
     font-weight: 700;
-    font-family: "Cambay Devanagari", "Nunito Sans", sans-serif;
-    letter-spacing: 4px;
+    font-family:'Cantarell', sans-serif;
+    letter-spacing: 2px;
     margin-bottom: 64px;
     margin-left: -10px;
 }
@@ -956,26 +958,26 @@ main{
 }
 .link_btn{
     width: 100%;
-    margin-top: 44px;
+    margin-top: 33px;
 }
 .btn_block span{
-    font-size: 32px;
+    font-size: 30px;
     font-weight: 600;
-    font-family: "Cambay Devanagari", "Nunito Sans", sans-serif;
-    letter-spacing: 4px;
+    font-family:'Cantarell', sans-serif;
+    letter-spacing: 2px;
 }
 .footer_btn_text{
     color: #fff;
     font-size: 14px;
-    line-height: 1.6;
+    line-height: 1.5;
     text-align: center;
     margin-bottom: 10px;
 }
 .btn_text{
-    font-size: 12px;
-    font-family: "Cambay Devanagari", "Nunito Sans", sans-serif;
+    font-size: 11px;
+    font-family:'Cantarell', sans-serif;
     color: #666666;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
     margin-bottom: 5px;
 }
 
@@ -999,8 +1001,8 @@ main{
     margin-bottom: 140px;
 }
 .title_block .section_title{
-    font-size: 75px;
-    letter-spacing: 4px;
+    font-size: 64px;
+    letter-spacing: 1px;
     text-align: center;
     margin-top: 0;
 }
@@ -1012,11 +1014,11 @@ main{
     text-align: right;
     font-size: 20px;
     font-weight: 300;
-    margin-top: 8px;
+    margin-top: 5px;
 }
 .work-border{
     border: 1px solid #252526;
-    margin-top: 15px;
+    margin-top: 8px;
 }
 .work_list{
     max-width: 1500px;
@@ -1038,7 +1040,7 @@ main{
     margin-top: 200px;
     font-size: 16px;
     font-weight: 400;
-    font-family: "Cambay Devanagari", "Nunito Sans", sans-serif;
+    font-family:'Cantarell', sans-serif;
     letter-spacing: 1px;
 }
 .work_link:hover img{
@@ -1057,7 +1059,7 @@ main{
     margin: 15px 0 0 13px;
     color: #666;
     font-size: 16px;
-    font-family: "Cambay Devanagari", "Nunito Sans", sans-serif;
+    font-family:'Cantarell', sans-serif;
 }
 .work_list .work-client{
     margin: 5px 0 0 13px;
@@ -1084,9 +1086,9 @@ aside {
     z-index: 9000;
 }
 .menu_btn{
-    font-size: 25px;
+    font-size: 22px;
     color: #fff;
-    font-family: "Cambay Devanagari", "Nunito Sans", sans-serif;
+    font-family:'Cantarell', sans-serif;
     background-color: #252526;
     border-radius: 2px;
     text-align: center;
@@ -1156,15 +1158,15 @@ aside {
     padding: 0 15px;
 }
 .modalArea .section_title{
-    font-size: 50px;
-    letter-spacing: 4px;
+    font-size: 44px;
+    letter-spacing: 1px;
 }
 .modalArea .work-border{
     margin-top: 5px
 }
 .modalArea .subtitle p{
     font-size: 15px;
-    margin-top: 10px;
+    margin-top: 3px;
 }
 .modal_textarea{
     max-width: 1000px;
@@ -1174,7 +1176,7 @@ aside {
 .modal_text, .modal_text_pc{
     font-size: 12px;
     line-height: 1.8;
-    margin-bottom: 50px;
+    margin-bottom: 32px;
     font-feature-settings: "palt";
     text-align: left;
     padding: 0 15px;
@@ -1258,7 +1260,7 @@ aside {
     text-align: center;
 }
 .flow_img img{
-    width: 81%;
+    width: 90%;
 }
 .modalArea .support_item{
     height: 110px;
@@ -1401,7 +1403,7 @@ aside {
 }
 .work_title a{
     font-size: 16px;
-    font-family: "Cambay Devanagari", "Nunito Sans", sans-serif;
+    font-family:'Cantarell', sans-serif;
 }
 
 /*== 波紋がふわっと広がる */
@@ -1505,7 +1507,7 @@ aside {
     text-align: center;
     outline: none;
     font-size: 16px;
-    font-family: "Cambay Devanagari", "Nunito Sans", sans-serif;
+    font-family:'Cantarell', sans-serif;
     display: table;
     padding: 1em 2.5em;
     min-width: 15em;
@@ -1636,12 +1638,12 @@ aside {
 }
 .support_group img{
     width: 100%;
-    margin-top: 36px;
+    margin-top: 34px;
 }
 .support_group h3{
     font-size: 30px;
-    font-family: "Cambay Devanagari", "Nunito Sans", sans-serif;
-    letter-spacing: 4px;
+    font-family:'Cantarell', sans-serif;
+    letter-spacing: 2px;
 }
 /*背景画像を固定するパララックス*/
 .background {
@@ -1668,8 +1670,8 @@ aside {
 }
 .support_title h3{
     width: 248px;
-    font-size: 32px;
-    font-family: "Cambay Devanagari", "Nunito Sans", sans-serif;
+    font-size: 30px;
+    font-family:'Cantarell', sans-serif;
     letter-spacing: 1px;
     text-align: center;
 }
@@ -1849,8 +1851,8 @@ button:hover{
     .sp_nav li{
         padding: 10px 30px;
         font-size: 21px;
-        font-weight: 600;
-        font-family: "Cambay Devanagari", "Nunito Sans", sans-serif;
+        font-weight: 700;
+        font-family:'Cantarell', sans-serif;
         letter-spacing: 4px;
         line-height: 2.0;
         color:#252526;
@@ -1873,6 +1875,10 @@ button:hover{
     }
     .header_nav ,.header_contact{
         display: none;
+    }
+    .header_container{
+        width: 100%;
+        padding:30px 39px;
     }
     .hamburger{
         display: block;
@@ -1940,18 +1946,18 @@ button:hover{
         align-items: center;
     }
     .mv_copy{
-        font-size: 50px;
+        font-size: 45px;
         font-weight: 400;
-        letter-spacing: 4px;
+        letter-spacing: 2px;
     }
     .mv_copy img{
         width: 50px;
         margin: 0 50px;
     }
     .mv_logo{
-        font-size: 65px;
+        font-size: 60px;
         font-weight: 600;
-        letter-spacing: 10px;
+        letter-spacing: 4px;
         margin-top: 30px;
     }
     .sp_mv_img{
@@ -2071,6 +2077,12 @@ button:hover{
         font-weight: 400;
         letter-spacing: 4px;
     }
+    .footer_inner{
+        justify-content:space-between;
+    }
+    .footer_menu{
+        gap:30px;
+    }
     .work-border{
         margin-top: 7px;
     }
@@ -2183,6 +2195,9 @@ button:hover{
     .slick-nav-arrows{
         margin-top: 50px;
     }
+    .footer_btn_top-only .btn{
+        background-color: #fff;
+    }
     .footer_menu {
         gap: 20px;
     }
@@ -2191,6 +2206,7 @@ button:hover{
     }
     .footer_contact {
         font-size: 16px;
+        color: #252526!important;
     }
     .section_title{
         font-size: 70px;
@@ -2610,17 +2626,19 @@ button:hover{
     }
     .footer_logo {
         font-size: 20px;
+        letter-spacing: 1px;
+        margin-bottom: 72px;
     }
     .footer_menu_block li{
-        font-size: 20px;
-        letter-spacing: 1px;
-        margin-bottom: 20px;
+        font-size: 18px;
     }
     .privacy{
         margin-top: 70px;
     }
     .copyright{
+        font-size: 12px;
         text-align: left;
+        margin-bottom: 0;
         padding-bottom: 0;
     }
     .pagetop{
@@ -2664,7 +2682,7 @@ button:hover{
     .sp_work-type{
         width: 80px;
         font-size: 12px;
-        font-family: "Cambay Devanagari", "Nunito Sans", sans-serif;
+        font-family:'Cantarell', sans-serif;
         letter-spacing: 1px;
         color: #fff;
         background-color: #252526;
@@ -2675,7 +2693,7 @@ button:hover{
     .sp_work-type_min{
         width: 150px;
         font-size: 12px;
-        font-family: "Cambay Devanagari", "Nunito Sans", sans-serif;
+        font-family:'Cantarell', sans-serif;
         color: #fff;
         background-color: #252526;
         padding: 5px 3px;

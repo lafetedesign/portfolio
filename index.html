@@ -9,7 +9,7 @@
     <!--font-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,200;6..12,300;6..12,400;6..12,500;6..12,600;6..12,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cantarell:wght@400;700&display=swap" rel="stylesheet">
     <!--slick-->
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css">
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css">
@@ -173,11 +173,10 @@
                         </div>
                         <div class="about_contents" data-aos="fade-up" data-aos-duration="1000">
                             <p class="about_text">
-                                LAFETE DESIGN(ラフェット デザイン)は、ウェブ、グラフィック、NEKOnoTE(事務)を三本柱とし、
+                                LAFETE DESIGN(ラフェット デザイン)は、WEB、GRAPHIC、NEKOnoTE(事務)を三本柱とし、
                                 新しく事業をスタートされる方へデザインだけでない、プラスαのサポートをいたします。
                             </p>
                             <p class="bottom_space">
-                                デザインをご依頼いただくお客様、そしてその先のお客様へ。
                                 わたしのプラスαが形を変え、その先のお客様へプラスαとなることを願って。<br>
                                 「ねこの手もかりたい」そんな時は、<br>LAFETE DESIGNへ。
                             </p>
@@ -201,7 +200,6 @@
                                 新しく事業をスタートされる方へデザインだけでない、プラスαのサポートをいたします。
                             </p>
                             <p class="bottom_space">
-                                デザインをご依頼いただくお客様、そしてその先のお客様へ。
                                 わたしのプラスαが形を変え、その先のお客様へプラスαとなることを願って。<br>
                                 「ねこの手もかりたい」そんな時は、<br>LAFETE DESIGNへ。
                             </p>
@@ -399,9 +397,9 @@
                                 <li><a href="./about.html">ABOUT</a></li>
                                 <li><a href="./contact.html">CONTACT</a></li>
                                 <li class="privacy"><a href="./privacy.html">PRIVACY POLICY</a></li>
-                                <li class="copyright">
+                                <div class="copyright">
                                     &copy; LAFETE DESIGN
-                                </li>
+                                </div>
                             </ul>
                         </div>
                     </div>
@@ -470,7 +468,7 @@
                 $("#container").css("opacity", "1");
             } else {
                sessionStorage.setItem('visit', 'true'); 
-               $("#splash").delay(3800).fadeOut('fast',function(){//ローディングエリア（splashエリア）をフェードアウトする記述
+               $("#splash").delay(4000).fadeOut('fast',function(){//ローディングエリア（splashエリア）をフェードアウトする記述
                    $('body').addClass('appear');//フェードアウト後bodyにappearクラス付与
                });
             }
