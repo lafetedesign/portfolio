@@ -73,18 +73,12 @@ g .cls-2, .cls-1{
     stroke-miterlimit: 10;
     stroke-width: 4.84px;
 }
-/*.cls-3 {
-    fill: #252526;
-    stroke-width: 0px;
-}*/
 
 /*========= 画面遷移のためのCSS ===============*/
-
 /*画面遷移アニメーション*/
 .splashbg{
     display: none;
 }
-
 /*bodyにappearクラスがついたら出現*/
 body.appear .splashbg{
     display:block;
@@ -102,7 +96,6 @@ body.appear .splashbg{
     transform: translateX(-300%) skewX(-45deg);
     background-color: #252526;/*伸びる背景色の設定*/
 }
-
 @keyframes PageAnime{
   0% {
     transform-origin:left;
@@ -113,12 +106,10 @@ body.appear .splashbg{
     transform:translateX(500%) skewX(-45deg);
   }
 }
-
 /*画面遷移の後現れるコンテンツ設定*/
 #container{
   opacity: 0;/*はじめは透過0に*/
 }
-
 /*bodyにappearクラスがついたら出現*/
 body.appear #container{
   animation-name:PageAnimeAppear;
@@ -127,7 +118,6 @@ body.appear #container{
   animation-fill-mode:forwards;
   opacity: 0;
 }
-
 @keyframes PageAnimeAppear{
   0% {
   opacity: 0;
@@ -136,9 +126,6 @@ body.appear #container{
   opacity: 1;
 }
 }
-
-
-
 
 /*==サークルボタン共通設定==*/
 .circle_btn{
@@ -151,9 +138,9 @@ body.appear #container{
 @keyframes rotation1{
     0%{ transform:rotate(0);}
     100%{ transform:rotate(360deg); }
-  }
+}
 
- /*==セクションタイトル共通設定==*/
+/*==セクションタイトル共通設定==*/
 .section_title{
     font-size: 67px;
     font-weight: 600;
@@ -217,6 +204,7 @@ body.appear #container{
     transform-origin:left top;
     transform:scale(1, 1);
 }
+
 /*==背景が白のボタン共通設定==*/
 .common-btn{
     width: 15em;
@@ -225,6 +213,7 @@ body.appear #container{
     border-radius: 2px;
     margin-top: 150px;
 }
+
 .sp_nav, .sp_mv, .sp_only, .sp_about, .web_sp, .sp_service, .graphic_text_sp, 
 .contact_text_sp, .sp_modal, .sp_gallery, .about_block_sp, .support_text_sp, 
 .title_text_sp, .sp_only_min, .sp_text, .modal_text_sp{
@@ -234,7 +223,6 @@ body.appear #container{
 /*==header==*/
 #header{
     box-sizing: border-box;
-
 }
 .header_container{
     position: fixed;
@@ -300,7 +288,6 @@ body.appear #container{
     object-fit: cover;
     margin-top: 50px;
 }
-
 .mv_inner{
     width: 460px;
     margin-top: 290px;
@@ -321,7 +308,6 @@ body.appear #container{
 .mv_copy img{
     width: 24px;
     margin: 0 15px 2px 13px;
-
 }
 .mv_logo{
     font-size: 38px;
@@ -347,12 +333,6 @@ main{
     text-align: center;
     z-index: 5;
     margin-bottom: -30px;
-    
-    /*height: 30vh;
-    margin-bottom: -8vh;
-    pointer-events: none;
-    top:0px;
-    transform: matrix(1, 0, 0, 1, 0, -35.5);*/
 }
 .abou_title img{
     width: 654px;
@@ -484,8 +464,8 @@ main{
 }
 /*hoverした際の変化*/
 .btntextchange:hover{
-  background:#252526;
-  color:#fff;
+    background:#252526;
+    color:#fff;
 }
 .btntextchange span{
     /*絶対配置でテキストの位置を決める*/
@@ -524,6 +504,7 @@ main{
 .btnchange_ja{
     font-size: 16px;
 }
+
 /*==TOP web design==*/
 .web-design{
     margin-top: 157px;
@@ -541,7 +522,6 @@ main{
     position: relative;
     width: 50%;
 }
-
 .work-type{
     position: absolute;
     transform-origin: bottom left;
@@ -694,6 +674,7 @@ main{
     position: absolute;
     content: "";
 }
+
 /*==TOP contact==*/
 .contact{
     margin-top: 200px;
@@ -727,8 +708,8 @@ main{
     font-size: 25px;
     line-height: 1.8;
 }
-/*==footer==*/
 
+/*==footer==*/
 .pagetop{
     text-align: right;
     margin-right: 30px;
@@ -778,7 +759,6 @@ main{
     padding-bottom: 41px;
     font-family:'Cantarell', sans-serif;
 }
-
 .footer_btn .btn{
     border: 1px solid #fff;
     padding: 40px 90px;
@@ -857,7 +837,6 @@ main{
     margin-bottom: 59px;
     font-family:'Cantarell', sans-serif;
 }
-
 .owner_cat{
     color: #fff;
     font-size: 14px;
@@ -927,17 +906,6 @@ main{
     letter-spacing: 2px;
     margin-bottom: 64px;
 }
-/*.profile_block li::before {
-    position: relative;
-    display: inline-block;
-    top: -2px;
-    left: -10px;
-    width: 11px;
-    height: 11px;
-    content: '';
-    border-radius: 0;
-    background-color: #252526;  
-}*/
 .profile_block li{
     font-size: 16px;
     line-height: 1.8;
@@ -987,10 +955,7 @@ main{
     margin-bottom: 5px;
 }
 
-
 /*==下層ページ work==*/
-
-
 .title_text{
     font-size: 16px;
     line-height: 1.8;
@@ -1073,9 +1038,7 @@ main{
     line-height: 1.5;
     font-family: 'Cantarell',"游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", "メイリオ", sans-serif;
 }
-/*main{
-    max-width: 2000px;
-}*/
+
 /* サイドメニューボタン設置 */
 .content-wrap{
     display: flex;
@@ -1144,7 +1107,7 @@ aside {
 .modal-scroll::-webkit-scrollbar-thumb {
     background-color: #d5d5d5;
     border-radius: 5px;
-  }
+}
 .closeModal {
     position: absolute;
     right: 0;
@@ -1272,11 +1235,6 @@ aside {
 .modalArea .support_item{
     height: 110px;
 }
-/*.modalArea .support_title h3 {
-    width: 100px;
-    font-size: 20px;
-    font-family: "Cambay Devanagari";
-}*/
 .modalArea .support_inner{
     margin-bottom: 30px;
     justify-content: space-around;
@@ -1324,8 +1282,6 @@ aside {
     margin-bottom: 10px;
 }
 
-
-
 /*ページネーション共通*/
 .pagination{
     list-style: none;
@@ -1366,7 +1322,6 @@ aside {
 .pagination li:last-child{
     border: none;
 }
-
 
 /*==work詳細共通==*/
 .work{
@@ -1415,7 +1370,6 @@ aside {
 }
 
 /*== 波紋がふわっと広がる */
-
 .view-site{
     /*波紋の基点とするためrelativeを指定*/
     position: relative;
@@ -1427,7 +1381,6 @@ aside {
     font-family: 'Cantarell', sans-serif;
     outline: none;
 }
-
 /*波形の設定*/
 .view-site:hover::before {
     content: '';
@@ -1445,7 +1398,6 @@ aside {
     /*アニメーションの設定*/
     animation:1s circleanime2 forwards;
 }
-
 /*波形が広がるアニメーション*/
 @keyframes circleanime2{
   0%{
@@ -1456,12 +1408,6 @@ aside {
     opacity: 0;
   }
 }
-
-
-
-
-
-
 
 .work_text{
     font-size: 16px;
@@ -1567,9 +1513,6 @@ aside {
     justify-content: space-between;
     margin: 30px 0 5px 0;
 }
-/*.work_graphic .work_title_contents{
-    max-width: 1100px;
-}*/
 .work_type_wide{
     width: 193px;
     color: #fff;
@@ -1579,18 +1522,6 @@ aside {
     text-align: center;
     margin-right: 23px;
 }
-/*.work_graphic h2 span{
-    font-size: 25px;
-}
-.work_graphic h2{
-    margin-bottom: 0;
-}
-.work_graphic .work_title_inner{
-    align-items: center;
-}
-.work_graphic{
-    padding: 30px;
-}*/
 .work_mv_min{
     max-width: 800px;
     margin: 0 auto;
@@ -1601,6 +1532,7 @@ aside {
     width: 50%;
     margin-top: 150px;
 }
+
 /*==NEKOnoTE==*/
 .support{
     margin: 200px 0;
@@ -1714,7 +1646,6 @@ aside {
     margin-right: 20px
 }
 
-
 /*==プライバシーポリシー==*/
 .privacy-policy{
     max-width: 757px;
@@ -1743,7 +1674,6 @@ aside {
     font-size: 14px;
     line-height: 1.8;
 }
-
 
 /*==コンタクトフォーム==*/
 .container{
@@ -1803,7 +1733,6 @@ input, textarea{
     font-weight: 400;
     font-family: "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", "メイリオ", "Hiragino Kaku Gothic ProN", "Hiragino Sans", sans-serif;
 }
-
 button {
     width: 200px;
     cursor: pointer;
@@ -1833,10 +1762,6 @@ button:hover{
     text-align: center;
     margin-bottom: 100px;
 }
-
-
-
-
 
 @media screen and (max-width: 1100px){
     .pc_only{
@@ -2140,15 +2065,6 @@ button:hover{
     .support_contents{
         top:-100px;
     }
-    /*.work_graphic .work_title_contents{
-        max-width: 800px;
-    }
-    .work_graphic .work_desc{
-        gap:20px;
-    }
-    .work_graphic .work_table{
-        gap:17px
-    }*/
     .work_banner .work_table{
         gap:17px
     }  
@@ -2283,7 +2199,6 @@ button:hover{
         margin-top: 50px;
     }
     .owner_item{
-        /*max-width: 460px;*/
         margin: 0 auto;
         text-align: left;
     }
@@ -2400,8 +2315,6 @@ button:hover{
         margin-left: 200px;
     }
 }
-
-   
 
 @media screen and (max-width: 787px){
     .sp_about, .sp_service, .web_sp, .sp_only, .graphic_text_sp{
@@ -2863,19 +2776,12 @@ button:hover{
         margin-bottom: 10px;
         padding: 5px;
     }
-    /*.work_graphic h2 span{
-        font-size: 20px;
-    }*/
     .work_type_wide{
         width: 150px;
         font-size: 12px;
         padding: 7px;
         margin-bottom: 10px;
     }
-    /*.work_graphic .work_type{
-        margin-bottom: 20px;
-        padding: 10px;
-    }*/
     .work-border{
         margin-top: 4px;
     }
@@ -2895,7 +2801,6 @@ button:hover{
         font-size: 30px;
     }
 } 
-
 
 @media screen and (max-width: 560px){
     #splash_logo {

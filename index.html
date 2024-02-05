@@ -346,74 +346,70 @@
                 </div>
             </div>
         </main>
-    
-        <footer>
-            <div class="pc_footer">
+    </div>
+    <footer>
+        <div class="pc_footer">
+            <div class="pagetop">
+                <a href="#header">
+                    <img class="pagetop_btn" src="./images/19back-to-top01.png" onmouseover="this.src='./images/20back-to-top02.png'" onmouseout="this.src='./images/19back-to-top01.png'" alt="トップへ戻る">
+                 </a>
+            </div>
+            <div class="footer_inner">
+                <div class="footer_menu_contents">
+                    <div class="footer_logo">
+                        <a href="./index.html">LAFETE DESIGN</a>
+                    </div>
+                    <div class="footer_menu">
+                        <ul class="footer_menu_block">
+                            <li><a href="./web.html">WEB DESIGN</a></li>
+                            <li><a href="./graphic.html">GRAPHIC DESIGN</a></li>
+                            <li><a href="./nekonote.html">NEKOnoTE</a></li>
+                        </ul>
+                        <ul class="footer_menu_block">
+                            <li><a href="./about.html">ABOUT</a></li>
+                            <li><a href="./contact.html">CONTACT</a></li>
+                            <li class="privacy"><a href="./privacy.html">PRIVACY POLICY</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="footer_btn_top-only">
+                    <a class="btn bgleft" href="./about.html"><span class="footer_contact">let's go!</span></a>
+                </div>
+            </div>
+            <p class="copyright">
+                &copy; LAFETE DESIGN
+            </p>
+        </div>
+        <div class="sp_only">  
+            <div class="footer_inner">
+                <div class="footer_menu_contents">
+                    <div class="footer_logo">
+                        <a href="./index.html">LAFETE DESIGN</a>
+                    </div>
+                    <div class="footer_menu">
+                        <ul class="footer_menu_block">
+                            <li><a href="./web.html">WEB DESIGN</a></li>
+                            <li><a href="./graphic.html">GRAPHIC DESIGN</a></li>
+                            <li><a href="./nekonote.html">NEKOnoTE</a></li>
+                        </ul>
+                        <ul class="footer_menu_block">
+                            <li><a href="./about.html">ABOUT</a></li>
+                            <li><a href="./contact.html">CONTACT</a></li>
+                            <li class="privacy"><a href="./privacy.html">PRIVACY POLICY</a></li>
+                        </ul>
+                        <p class="copyright">
+                            &copy; LAFETE DESIGN
+                        </p>
+                    </div>
+                </div>
                 <div class="pagetop">
                     <a href="#header">
-                        <img class="pagetop_btn" src="./images/19back-to-top01.png" onmouseover="this.src='./images/20back-to-top02.png'" onmouseout="this.src='./images/19back-to-top01.png'" alt="トップへ戻る">
+                        <img class="pagetop_btn" src="./images/sp_back-to-top.png" alt="トップへ戻る">
                      </a>
                 </div>
-                <div class="footer_inner">
-                    <div class="footer_menu_contents">
-                        <div class="footer_logo">
-                            <a href="./index.html">LAFETE DESIGN</a>
-                        </div>
-                        <div class="footer_menu">
-                            <ul class="footer_menu_block">
-                                <li><a href="./web.html">WEB DESIGN</a></li>
-                                <li><a href="./graphic.html">GRAPHIC DESIGN</a></li>
-                                <li><a href="./nekonote.html">NEKOnoTE</a></li>
-                            </ul>
-                            <ul class="footer_menu_block">
-                                <li><a href="./about.html">ABOUT</a></li>
-                                <li><a href="./contact.html">CONTACT</a></li>
-                                <li class="privacy"><a href="./privacy.html">PRIVACY POLICY</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="footer_btn_top-only">
-                        <a class="btn bgleft" href="./about.html"><span class="footer_contact">let's go!</span></a>
-                    </div>
-                </div>
-                <p class="copyright">
-                    &copy; LAFETE DESIGN
-                </p>
             </div>
-            <div class="sp_only">  
-                <div class="footer_inner">
-                    <div class="footer_menu_contents">
-                        <div class="footer_logo">
-                            <a href="./index.html">LAFETE DESIGN</a>
-                        </div>
-                        <div class="footer_menu">
-                            <ul class="footer_menu_block">
-                                <li><a href="./web.html">WEB DESIGN</a></li>
-                                <li><a href="./graphic.html">GRAPHIC DESIGN</a></li>
-                                <li><a href="./nekonote.html">NEKOnoTE</a></li>
-                            </ul>
-                            <ul class="footer_menu_block">
-                                <li><a href="./about.html">ABOUT</a></li>
-                                <li><a href="./contact.html">CONTACT</a></li>
-                                <li class="privacy"><a href="./privacy.html">PRIVACY POLICY</a></li>
-                                <li class="copyright">
-                                    &copy; LAFETE DESIGN
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="pagetop">
-                        <a href="#header">
-                            <img class="pagetop_btn" src="./images/sp_back-to-top.png" alt="トップへ戻る">
-                         </a>
-                    </div>
-                    
-                </div>
-            </div>   
-        </footer>
-
-    </div>
-
+        </div>   
+    </footer>
     <script>
         $(function(){
             //*ハンバーガーメニュー*//
@@ -445,22 +441,8 @@
                 });
             };
         });
-   
-
-
-        //$(window).on('load',function(){
-  
-    //=====ここからローディングエリア（splashエリア）を1.5秒でフェードアウトした後に動かしたいJSをまとめる
-    //$("#splash").delay(3800).fadeOut('fast',function(){//ローディングエリア（splashエリア）を1.5秒でフェードアウトする記述
-    
-      //$('body').addClass('appear');//フェードアウト後bodyにappearクラス付与
-  
-    //});
-//});
-
 
         //*オープニング1回のみ *//  
-       // $(window).on('load',function(){
         const webStorage = function () {
             if (sessionStorage.getItem('visit')) {
                 $("#splash").css("display", "none");
@@ -473,10 +455,6 @@
             }
         }
        webStorage();
-
-    //});
-
-
 
         //*スライダー軽く*//
         lightbox.option({
