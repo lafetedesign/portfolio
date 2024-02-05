@@ -706,8 +706,11 @@ main{
     letter-spacing: 4px;
 }
 .contact_block{
-    border: 1px solid #252526;
-    margin-left: -1px;
+    border-top: 1px solid #252526;
+    border-bottom:  1px solid #252526;
+    float: left;
+    top:0;
+    left:0;
 }
 .contact_inner{
     width: 100%;
@@ -716,7 +719,7 @@ main{
     justify-content: space-between;
 }
 .contact_btn{
-    width: 101%;
+    width: 100%;
 }
 .contact_text_pc{
     font-weight: 500;
@@ -1801,7 +1804,7 @@ input, textarea{
     color: #252526;
     font-size: 14px;
     font-weight: 400;
-    font-family: "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", "メイリオ", "Hiragino Kaku Gothic ProN", "Hiragino Sans", sans-serif;;
+    font-family: "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", "メイリオ", "Hiragino Kaku Gothic ProN", "Hiragino Sans", sans-serif;
 }
 
 button {
@@ -2712,6 +2715,7 @@ button:hover{
     .sp_work-title{
         font-size: 14px;
         font-weight: 300;
+        font-family: 'Cantarell',"游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", "メイリオ", sans-serif;
         letter-spacing: 1px;
         margin-bottom: 5px;
     }
@@ -2725,6 +2729,7 @@ button:hover{
     .sp_work-client span{
         font-size: 18px;
         font-weight: 400;
+        font-family: 'Cantarell',"游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", "メイリオ", sans-serif;
     }
     .btn_block span {
         font-size: 16px;
@@ -2852,8 +2857,8 @@ button:hover{
     }
     .work .work_type{
         width: 100px;
-        margin-bottom: 20px;
-        padding: 10px;
+        margin-bottom: 10px;
+        padding: 5px;
     }
     .work_banner .work_type{
         width: 100px;
