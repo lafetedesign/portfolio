@@ -282,11 +282,17 @@ body.appear #container{
     margin-top: 120px;
     z-index: -1;
 }   
+/*mainまでスクロールしたら消す*/
+.is-hidden {
+    visibility: hidden;
+    opacity: 0;
+}
 .mv_img{
     width: 100%;
     height: 685px;
     object-fit: cover;
     margin-top: 50px;
+    z-index: -10;
 }
 .mv_inner{
     width: 460px;
@@ -2363,6 +2369,13 @@ button:hover{
         margin-top: 16px;
         margin-right: -28px;
     }
+    .common-btn{
+        margin-top: 70px;
+    }
+    .web_main_text{
+        margin-top: 45px;
+        margin-bottom: 50px;
+    }
     .about{
         padding: 100px 30px;
     }
@@ -2431,9 +2444,13 @@ button:hover{
         font-size: 14px;
         margin-top: 2px;
     }
+    .title_block{
+        margin-bottom: 0;
+    }
     .title_block .section_title{
         font-size: 25px;
         letter-spacing: 0;
+        margin-bottom: 30px;
         padding: 0 10px 0 0 ;
     }
     .title_block .section_title::before{
@@ -2498,6 +2515,9 @@ button:hover{
     .graphic-subtitle{
         display: none;
     }
+    .gallery-slider{
+        margin-top: 50px;
+    }
     .slick-prev::after{
         top:33%;
         left:69%;
@@ -2512,8 +2532,12 @@ button:hover{
     .graphic_text_sp{
         font-size: 16px;
         line-height: 1.8;
-        margin-top: 60px;
+        margin-top: 45px;
         font-feature-settings: "palt";
+    }
+    .pagination{
+        margin-top: 10px;
+        margin-bottom: 50px;
     }
     .contact {
         margin-top: 130px;
@@ -2580,7 +2604,7 @@ button:hover{
         font-size: 16px;
         line-height: 1.8;
         font-feature-settings: "palt";
-        margin: 80px 0;
+        margin: 30px 0;
         text-align: center;
         padding: 30px;
     }
@@ -2849,8 +2873,22 @@ button:hover{
     }
 }
 @media screen and (max-width: 350px){
+    .mv_logo{
+        font-size: 26px;
+        letter-spacing: 1px;
+    }
+    .mv_copy{
+        font-size: 22px;
+        letter-spacing: 1px;
+    }
+    .section_title{
+        font-size: 26px;
+    }
     .abou_title img{
         width: 267px;
+    }
+    .graphic_title_block .section_title{
+        font-size: 25px;
     }
     .btntextchange{
         padding: 16px 5px;
@@ -2879,5 +2917,18 @@ button:hover{
     .mv_inner{
         font-size: 27px;
         letter-spacing: 2px;
+    }
+    .footer_logo{
+        font-size: 17px;
+    }
+    .footer_menu_block li{
+        font-size: 16px;
+        letter-spacing: 0;
+    }
+    .support_title{
+        gap: 53px;
+    }
+    .support_title h3{
+        font-size: 17px;
     }
 }

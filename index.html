@@ -198,7 +198,7 @@
                                 新しく事業をスタートされる方へデザインだけでない、プラスαのサポートをいたします。
                             </p>
                             <p class="bottom_space">
-                                わたしのプラスαが形を変え、その先のお客様へプラスαとなることを願って。<br>
+                                わたしのプラスαが形を変え、その先のお客様へ届くことを願って。<br>
                                 「ねこの手もかりたい」そんな時は、<br>LAFETE DESIGNへ。
                             </p>
                             <div class="about-btn">
@@ -455,6 +455,22 @@
             }
         }
        webStorage();
+
+        //*メインビジュアルスクロールしたら消える*//
+        $(function() {
+            var main = $('main').innerHeight(); // mainの高さを取得
+            window.onscroll = function () {
+                var point = window.pageYOffset; // 現在のスクロール地点 
+                var docHeight = $(document).height(); // ドキュメントの高さ
+                var dispHeight = $(window).height(); // 表示領域の高さ
+
+                if(point > docHeight-dispHeight-main){ // スクロール地点>ドキュメントの高さ-表示領域-footerの高さ
+                    $('.mv_main').addClass('is-hidden'); //.mv_mainより下にスクロールしたらis-hiddenを追加
+                }else{
+                    $('.mv_main').removeClass('is-hidden'); //.mv_mainより上にスクロールしたらis-hiddenを削除
+                }
+            };
+        });
 
         //*スライダー軽く*//
         lightbox.option({
