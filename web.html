@@ -22,11 +22,11 @@
     <!-- aos. jsファイルを読み込む -->
     <script src="./js/aos.js"></script>
     <!-- favicon -->
-    <link rel="apple-touch-icon" sizes="180x180" href="./images/favicon/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="./images/favicon/favicon-16x16.png">
-    <link rel="manifest" href="./images/favicon/site.webmanifest">
-    <link rel="mask-icon" href="./images/favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <link rel="apple-touch-icon" sizes="180x180" href="./images/favicon//apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon//favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./images/favicon//favicon-16x16.png">
+    <link rel="manifest" href="./images/favicon//site.webmanifest">
+    <link rel="mask-icon" href="./images/favicon//safari-pinned-tab.svg" color="#d60050">
     <meta name="msapplication-TileColor" content="#ffffff">
     <meta name="theme-color" content="#ffffff">
     <!-- Google tag (gtag.js) -->
@@ -37,6 +37,14 @@
         gtag('js', new Date());
         gtag('config', 'G-Y0EGCMEJKW');
     </script>
+    <!-- OGP -->
+    <head prefix="og: http://ogp.me/ns#"></head>
+    <meta property="og:url" content="https://poteweb.com/portfolio/web.html" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="WEB DESIGN | LAFETE DESIGN" />
+    <meta property="og:description" content="ラフェット デザインの制作実績はこちらです。" />
+    <meta property="og:site_name" content="LAFETE DESIGN" />
+    <meta property="og:image" content="./images/logoimag.jpg" />
 </head>
 <body>
     <header id="header">
@@ -621,6 +629,14 @@
             });
          });
         }
+        
+        // pagetopをクリックした際の設定
+        $('.pagetop').click(function () {
+            $('body,html').animate({
+                scrollTop: 0//ページトップまでスクロール
+            }, 500);//ページトップスクロールの速さ。数字が大きいほど遅くなる
+            return false;//リンク自体の無効化
+        });
 
         /*ハンバーガーメニュー*/
         $(".hamburger").on('click', function(){

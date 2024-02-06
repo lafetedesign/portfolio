@@ -33,6 +33,14 @@
         gtag('js', new Date());
         gtag('config', 'G-Y0EGCMEJKW');
     </script>
+    <!-- OGP -->
+    <head prefix="og: http://ogp.me/ns#"></head>
+    <meta property="og:url" content="https://poteweb.com/portfolio/graphic.html" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="GRAPHIC DESIGN | LAFETE DESIGN" />
+    <meta property="og:description" content="ラフェット デザインの制作実績はこちらです。" />
+    <meta property="og:site_name" content="LAFETE DESIGN" />
+    <meta property="og:image" content="./images/logoimag.jpg" />
 </head>
 <body>
     <header id="header">
@@ -510,6 +518,14 @@
             $(".sp_nav").fadeToggle();
             $(".hamburger").toggleClass('open');
         });  
+        // pagetopをクリックした際の設定
+        $('.pagetop').click(function () {
+            $('body,html').animate({
+                scrollTop: 0//ページトップまでスクロール
+            }, 500);//ページトップスクロールの速さ。数字が大きいほど遅くなる
+            return false;//リンク自体の無効化
+        });
+
     </script>
 </body>
 </html>

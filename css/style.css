@@ -228,9 +228,9 @@ body.appear #container{
     position: fixed;
     top:0;
     display: flex;
-    width: 90%;
+    width: 94%;
     justify-content: space-between;
-    padding: 20px 79px;
+    padding: 10px 60px 30px 60px;
     z-index: 9998;
     background: #fff;
     align-items: end;
@@ -1049,8 +1049,8 @@ main{
 .content-wrap{
     display: flex;
     justify-content:space-around;
-    gap:50px;
-    padding: 80px;
+    gap:60px;
+    padding: 60px;
 }
 aside {
     position: sticky;
@@ -1865,6 +1865,9 @@ button:hover{
         transform:rotate(-45deg);
         top: 0;
     }
+    .logo img{
+        vertical-align: middle;
+    }
     .main_visual{
         display: block;
         height: auto;
@@ -2557,7 +2560,7 @@ button:hover{
         display: block;
     }
     .contact_block img{
-        width: 101%;
+        width: 100%;
     }
     footer{
         margin: 0;
