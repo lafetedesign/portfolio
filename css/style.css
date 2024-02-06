@@ -130,7 +130,7 @@ body.appear #container{
 /*==サークルボタン共通設定==*/
 .circle_btn{
     width: 100px;
-    margin-top: -47px;
+    margin-top: -54px;
     margin-left: -45px;
     transform-origin:center;
     animation:3.5s linear infinite rotation1;
