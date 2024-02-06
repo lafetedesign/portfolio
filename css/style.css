@@ -230,7 +230,7 @@ body.appear #container{
     display: flex;
     width: 90%;
     justify-content: space-between;
-    padding: 30px 79px;
+    padding: 20px 79px;
     z-index: 9998;
     background: #fff;
     align-items: end;
@@ -296,7 +296,7 @@ body.appear #container{
 }
 .mv_inner{
     width: 460px;
-    margin-top: 290px;
+    margin-top: 15%;
     margin-left: 80px;
     margin-right: -120px;
     z-index: 1;
