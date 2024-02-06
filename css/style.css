@@ -690,8 +690,8 @@ main{
     letter-spacing: 4px;
 }
 .contact_block{
-    border-top: 0.8px solid #252526;
-    border-bottom:  0.8px solid #252526;
+    border-top: 1px solid #252526;
+    border-bottom:  1px solid #252526;
     float: left;
     top:0;
     left:0;
@@ -2373,7 +2373,7 @@ button:hover{
         margin-right: -28px;
     }
     .common-btn{
-        margin-top: 60px;
+        margin-top: 50px;
     }
     .web_main_text{
         margin-top: 45px;
@@ -2614,7 +2614,7 @@ button:hover{
         max-width: 500px;
         margin: 0 auto;
         text-align: center;
-        margin-bottom: 60px;
+        margin-bottom: 50px;
     }
     .sp_gallery_inner{
         width: 100%;
